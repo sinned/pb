@@ -26,10 +26,10 @@
 					<input type="hidden" name="price" value ="10" />
 					<input type="hidden" name="sub_frequency" value="1m" />
 					<input type="hidden" name="sub_startdate" value="10" />
+					<input class="toggle_gift" type="checkbox" /> This is a gift <br />
 					<div class="whofor hide">
 						<input type="text" name="shipto" placeholder="Who is this gift for?" />
-					</div>
-					<input class="toggle_gift" type="checkbox" /> This is a gift <br />
+					</div>		
 					<input type="submit" class="medium button" value="Get It" />
 				</form>
 
@@ -43,10 +43,10 @@
 					<input type="hidden" name="price" value ="27" />
 					<input type="hidden" name="sub_frequency" value="3m" />
 					<input type="hidden" name="sub_startdate" value="10" />
+					<input class="toggle_gift" type="checkbox" /> This is a gift <br />
 					<div class="whofor hide">
 						<input type="text" name="shipto" placeholder="Who is this gift for?" />
-					</div>
-					<input class="toggle_gift" type="checkbox" /> This is a gift <br />
+					</div>					
 					<input type="submit" class="medium button" value="Get It" />
 				</form>
 			</div>
@@ -59,10 +59,10 @@
 					<input type="hidden" name="price" value ="48" />
 					<input type="hidden" name="sub_frequency" value="6m" />
 					<input type="hidden" name="sub_startdate" value="10" />
+					<input class="toggle_gift" type="checkbox" /> This is a gift <br />
 					<div class="whofor hide">
 						<input type="text" name="shipto" placeholder="Who is this gift for?" />
-					</div>
-					<input class="toggle_gift" type="checkbox" /> This is a gift <br />
+					</div>		
 					<input type="submit" class="medium button" value="Get It" />
 				</form>
 			</div>			
