@@ -30,6 +30,7 @@ document.write('<script src=' +
 '.js><\/script>')
 </script>
 
+<script src="<?php echo WEBROOT; ?>js/app.js"></script>
 <script src="<?php echo WEBROOT; ?>js/foundation.min.js"></script>
 
 <script>

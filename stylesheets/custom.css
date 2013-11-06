@@ -1,25 +1,31 @@
 /* line 1, ../sass/custom.scss */
+.hide {
+  display: none;
+  background: red;
+}
+
+/* line 2, ../sass/custom.scss */
 .title-area img {
   width: 320px;
 }
 
-/* line 3, ../sass/custom.scss */
+/* line 4, ../sass/custom.scss */
 #footer {
   background: #02bdb8;
   padding: 20px 0;
 }
 
-/* line 4, ../sass/custom.scss */
+/* line 5, ../sass/custom.scss */
 #footer li a {
   color: #d6fbfa;
 }
 
-/* line 5, ../sass/custom.scss */
+/* line 6, ../sass/custom.scss */
 #footer li a:hover {
   color: #ffffff;
 }
 
-/* line 6, ../sass/custom.scss */
+/* line 7, ../sass/custom.scss */
 #footer p {
   font-size: .75em;
   color: #017976;
