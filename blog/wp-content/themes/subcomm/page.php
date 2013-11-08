@@ -6,7 +6,7 @@
 			<div class="large-12 columns">
 				<?php /* The loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
-					<div id="<?php echo( basename(get_permalink()) ); ?>">
+					<div id="<?php the_title_attribute("page-"); ?>">
 						<h1><?php echo the_title(); ?></h1>
 						<p><?php echo the_content(); ?></p>
 					</div>
