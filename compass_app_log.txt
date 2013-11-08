@@ -87,3 +87,11 @@
 2013-11-08 15:28:09 identical stylesheets/custom.css 
 2013-11-08 15:28:16 overwrite stylesheets/custom.css 
 2013-11-08 15:28:42 overwrite stylesheets/custom.css 
+2013-11-08 15:30:54 overwrite stylesheets/custom.css 
+2013-11-08 15:32:11     error sass/custom.scss (Line 15: Invalid CSS after "... rgba(0, 0, 0, ": expected function argument, was "}")
+2013-11-08 15:32:11 overwrite stylesheets/custom.css 
+2013-11-08 15:33:13 overwrite stylesheets/custom.css 
+2013-11-08 15:33:37 overwrite stylesheets/custom.css 
+2013-11-08 15:33:55 overwrite stylesheets/custom.css 
+2013-11-08 15:34:02 overwrite stylesheets/custom.css 
+2013-11-08 15:34:11 overwrite stylesheets/custom.css 

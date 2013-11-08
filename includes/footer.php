@@ -11,11 +11,11 @@
 				<li><a href="<?php echo WEBROOT;?>press/">Press</a></li>
 				<li><a href="<?php echo WEBROOT;?>faq/">FAQ</a></li>
 			</ul>
-			<ul class="inline-list right">
-				<li><a href="#"><img src="<?php echo WEBROOT; ?>img/facebook-green.png" /></a></li>
-				<li><a href="#"><img src="<?php echo WEBROOT; ?>img/twitter-green.png" /></a></li>
-				<li><a href="#"><img src="<?php echo WEBROOT; ?>img/pinterest-green.png" /></a></li>
-				<li><a href="#"><img src="<?php echo WEBROOT; ?>img/instagram-green.png" /></a></li>				
+			<ul class="inline-list right socialmedia">
+				<li><a href="http://www.facebook.com/poopbuddy"><img src="<?php echo WEBROOT; ?>img/facebook-green.png" /></a></li>
+				<li><a href="http://www.twitter.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/twitter-green.png" /></a></li>
+				<li><a href="http://www.pinterest.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/pinterest-green.png" /></a></li>
+				<li><a href="http://www.instagram.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/instagram-green.png" /></a></li>				
 			</ul>
 
 			<br style="clear:both;"/>

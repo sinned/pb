@@ -40,3 +40,8 @@
 #page-Press td {
   padding: 20px 20px 20px 0;
 }
+
+/* line 13, ../sass/custom.scss */
+.socialmedia a:hover {
+  -webkit-filter: grayscale(50%);
+}
