@@ -31,13 +31,12 @@
   color: #017976;
 }
 
-/* line 9, ../sass/custom.scss */
-#press tr {
-  padding: 10px 0;
+/* line 10, ../sass/custom.scss */
+#page-Press tr {
   border-bottom: 1px solid #eee;
 }
 
-/* line 10, ../sass/custom.scss */
-#press td {
-  padding: 5px;
+/* line 11, ../sass/custom.scss */
+#page-Press td {
+  padding: 20px 20px 20px 0;
 }
