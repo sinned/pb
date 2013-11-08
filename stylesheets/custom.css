@@ -30,3 +30,14 @@
   font-size: .75em;
   color: #017976;
 }
+
+/* line 9, ../sass/custom.scss */
+#press tr {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 10, ../sass/custom.scss */
+#press td {
+  padding: 5px;
+}
