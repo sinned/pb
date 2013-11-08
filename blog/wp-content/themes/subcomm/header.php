@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title><?php bloginfo('name'); ?></title>
+  <title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
   <?php include "includes/scripts.php"; ?>
 
 </head>

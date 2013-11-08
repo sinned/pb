@@ -28,6 +28,8 @@
         $(this).siblings('.whofor').children('input').val('');
       }
 
+    $('.faq-answer').hide(); // hide FAQs
+
     });
 
   });

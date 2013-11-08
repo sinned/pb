@@ -18,11 +18,9 @@
 						<span id="fc_plural"> items </span> in cart
 					</a></li>					
 					<li class="divider"></li>    	
-					<li><a href="#">What You Get</a></li>
+					<li><a href="<?php echo WEBROOT; ?>/what-you-get/">What You Get</a></li>
 					<li class="divider"></li>    	
-					<li><a href="#">Get Started</a></li>
-					<li class="divider"></li>    	
-			        <li><a class="open-sub" href="#">Mailing List</a></li>
+					<li><a href="<?php echo WEBROOT; ?>/subscribe/">Get Started</a></li>
 				</ul>
 			  </section>
 			</nav>		
