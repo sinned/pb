@@ -29,6 +29,12 @@
       }
     });
 
+    $('.subfigurator li a').click(function(e) {
+      e.preventDefault();
+      $(this).parents('ul').find('a').removeClass('success');
+      $(this).addClass('success');
+    });
+
     $('.faq-answer').hide(); // hide FAQs
 
   });
