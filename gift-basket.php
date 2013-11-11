@@ -76,7 +76,7 @@
 					<input type="hidden" name="name" value="PoopBuddy Gift Basket" />
 					<input type="hidden" name="code" value="POOPBUDDY-GIFT-BASKET" />
 					<input type="hidden" name="size" value="Small Dog" />
-					<input type="hidden" name="image" value="http://poopbuddy.herokuapp.com/img/gift-ruv.png" />
+					<input type="hidden" name="image" value="http://poopbuddy.herokuapp.com/img/gift-ruv.png?cb=1" />
 
 					<input type="hidden" name="price" value="35" />
 					<input type="hidden" name="shipto" />

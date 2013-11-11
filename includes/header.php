@@ -20,7 +20,9 @@
 					<li class="divider"></li>    	
 					<li><a href="<?php echo WEBROOT; ?>what-you-get/">What You Get</a></li>
 					<li class="divider"></li>    	
-					<li><a href="<?php echo WEBROOT; ?>subscribe/">Get Started</a></li>
+					<li><a href="<?php echo WEBROOT; ?>subscribe/">Subscribe</a></li>
+					<li class="divider"></li>    	
+					<li><a href="<?php echo WEBROOT; ?>gift/">Give a Gift</a></li>					
 					<li class="divider"></li>    	
 					<li><a href="<?php echo WEBROOT; ?>blog/">Blog</a></li>					
 				</ul>
