@@ -33,6 +33,31 @@
       e.preventDefault();
       $(this).parents('ul').find('a').removeClass('success');
       $(this).addClass('success');
+
+      // logic to set the subscription form
+      $('#subscription-size a').each(function (index, value) {
+        if ($(this).hasClass('success')) {
+          console.log('Price', $(this).attr('data-size'));     
+          $( "#subform input[name='size']" ).attr('value',$(this).attr('data-size'));
+        }
+      });
+      $('#subscription-choice a').each(function (index, value) {
+        if ($(this).hasClass('success')) {
+          console.log('Price', $(this).attr('data-price'));          
+          console.log('Freq', $(this).attr('data-freq'));   
+          $("#subform input[name='name']").attr('value', $(this).attr('data-name'))       
+
+          $("#subform input[name='price']").attr('value', $(this).attr('data-price'))       
+          $("#subform input[name='code']").attr('value', $(this).attr('data-code'))       
+          $("#subform input[name='sub_frequency']").attr('value', $(this).attr('data-freq'))     
+          $('#pricetext').html($(this).attr('data-pricetext'));  
+        }
+      });
+    });
+
+    $('#whofor').change(function (){
+      console.log('it is for: ', $(this).val());
+      $( "#subform input[name='shipto']" ).attr('value', $(this).val());
     });
 
     $('.faq-answer').hide(); // hide FAQs
