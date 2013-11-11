@@ -3,7 +3,7 @@ RewriteEngine On
 RewriteRule subscribe/ subscribe2.php [QSA,L]
 RewriteRule gift/ choose-gift.php [QSA,L]
 RewriteRule gift-basket/ gift-basket.php [QSA,L]
-RewriteRule gift-subscription/ gift-subscription.php [QSA,L]
+RewriteRule gift-prepaid/ gift-prepaid.php [QSA,L]
 RewriteRule about/ blog/about/ [L]
 RewriteRule what-you-get/ blog/what-you-get/ [L]
 RewriteRule press/ blog/press/ [L]

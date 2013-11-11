@@ -22,7 +22,7 @@
 				<a href="<?php echo WEBROOT; ?>gift-basket/"><img src="<?php echo WEBROOT; ?>img/gift-ruv.png" "Gift PoopBuddy Basket" /></a>		
 			</div>
 			<div class="large-6 columns">
-				<a href="<?php echo WEBROOT; ?>/gift-subscription/"><img src="<?php echo WEBROOT; ?>img/gift-sub.png" "Gift PoopBuddy Subscription" /></a>
+				<a href="<?php echo WEBROOT; ?>/gift-prepaid/"><img src="<?php echo WEBROOT; ?>img/gift-sub.png" "Gift PoopBuddy Prepaid Subscription" /></a>
 			</div>		
 		
 	</section>
