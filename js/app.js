@@ -41,18 +41,40 @@
           $( "#subform input[name='size']" ).attr('value',$(this).attr('data-size'));
         }
       });
+
+      // defaults for recurring/non-recurring
+      if ($('#subscription-is_recurring').hasClass('success')) {
+        $("#subform input[name='sub_frequency']").attr('value', '1m');     
+        $("#subform input[name='sub_startdate']").attr('value',11);
+      } else {
+        $("#subform input[name='sub_frequency']").attr('value', '');
+        $("#subform input[name='sub_startdate']").attr('value', '');            
+      }
+
       $('#subscription-choice a').each(function (index, value) {
         if ($(this).hasClass('success')) {
           console.log('Price', $(this).attr('data-price'));          
           console.log('Freq', $(this).attr('data-freq'));   
           $("#subform input[name='name']").attr('value', $(this).attr('data-name'))       
-
           $("#subform input[name='price']").attr('value', $(this).attr('data-price'))       
-          $("#subform input[name='code']").attr('value', $(this).attr('data-code'))       
-          $("#subform input[name='sub_frequency']").attr('value', $(this).attr('data-freq'))     
+          $("#subform input[name='code']").attr('value', $(this).attr('data-code'))    
+
+          // figure out if subscription recurring
+          if ($('#subscription-is_recurring').hasClass('success')) {
+            $("#subform input[name='sub_frequency']").attr('value', $(this).attr('data-freq'));     
+            $("#subform input[name='sub_startdate']").attr('value',10);
+            $("#subform input[name='code']").attr('value', $("#subform input[name='code']").attr('value')+'-RECUR');       
+          } else {
+            $("#subform input[name='sub_frequency']").attr('value', '');
+            $("#subform input[name='sub_startdate']").attr('value', '');            
+          }
+
           $('#pricetext').html($(this).attr('data-pricetext'));  
         }
       });
+
+
+
     });
 
     $('#whofor').change(function (){

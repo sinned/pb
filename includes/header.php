@@ -22,7 +22,7 @@
 					<li class="divider"></li>    	
 					<li><a href="<?php echo WEBROOT; ?>subscribe/">Subscribe</a></li>
 					<li class="divider"></li>    	
-					<li><a href="<?php echo WEBROOT; ?>gift/">Give a Gift</a></li>					
+					<li><a href="<?php echo WEBROOT; ?>gift-basket/">Gift Basket</a></li>					
 					<li class="divider"></li>    	
 					<li><a href="<?php echo WEBROOT; ?>blog/">Blog</a></li>					
 				</ul>
