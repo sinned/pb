@@ -61,6 +61,14 @@
   				</ul>		 
 			</div>		
 		</div>
+		<div class="row">
+			<div class="large-1 columns">
+				<h3>4</h3>
+			</div>
+			<div class="large-11 columns">
+				<h6>Gift Message</h6>
+				<textarea id="giftmessage_input" name="GiftMessage" cols="35" rows="6"></textarea>
+			</div>
 		<div class="row subfigurator">
 			<div class="large-1 columns">
 			</div>
@@ -77,9 +85,9 @@
 					<input type="hidden" name="code" value="POOPBUDDY-GIFT-BASKET" />
 					<input type="hidden" name="size" value="Small Dog" />
 					<input type="hidden" name="image" value="http://poopbuddy.herokuapp.com/img/gift-ruv.png?cb=1" />
-
 					<input type="hidden" name="price" value="35" />
 					<input type="hidden" name="shipto" />
+					<input type="hidden" name="Gift_Message" value="" />			
 					<input style="width:100%" class="round primary button" type="submit" value="Add to Cart" />
 				</form>				
 			</div>

@@ -82,6 +82,10 @@
       $( "#subform input[name='shipto']" ).attr('value', $(this).val());
     });
 
+    $('#giftmessage_input').change(function (){
+      $( "#subform input[name='Gift_Message']" ).attr('value', $(this).val());
+    });    
+
     $('.faq-answer').hide(); // hide FAQs
 
   });
