@@ -23,8 +23,8 @@
 			</div>
 			<div class="large-11 columns">
 				<ul class="button-group even-2">
-					<li><a id="thisisforme" href="#" class="clearprice secondary button">This is for me.</a></li>
-					<li><a id="thisisagift" href="#" class="clearprice secondary button">This is a gift.</a></li>
+					<li><a id="thisisforme" href="#" class="clearprice secondary button">This is for me</a></li>
+					<li><a id="thisisagift" href="#" class="clearprice secondary button">This is a gift</a></li>
 				</ul>
 			</div>
 		</div>
