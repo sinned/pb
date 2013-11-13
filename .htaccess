@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule subscribe/ subscribe.php [QSA,L]
+RewriteRule buy/ subscribe.php [QSA,L]
 RewriteRule gift/ choose-gift.php [QSA,L]
 RewriteRule gift-basket/ gift-basket.php [QSA,L]
 RewriteRule gift-prepaid/ gift-prepaid.php [QSA,L]
