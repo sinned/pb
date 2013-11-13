@@ -63,7 +63,7 @@
 		</div>
 		<div class="row">
 			<div class="large-1 columns">
-				<h3>4</h3>
+				<h3>3</h3>
 			</div>
 			<div class="large-11 columns">
 				<h6>Gift Message</h6>

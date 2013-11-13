@@ -29,6 +29,15 @@
       }
     });
 
+    // when a .clearprice is clicked, clear our product choice and reset price
+    $('.clearprice').click(function(e) {
+      e.preventDefault();
+      $('.product-choice a').removeClass('success');
+      $('#pricetext').html('Price: TBD, depending on your selections');
+      $("#addtocart").addClass('disabled');
+      $("#addtocart").attr('disabled',true);      
+    })
+
     $('.subfigurator li a').click(function(e) {
       e.preventDefault();
       $(this).parents('ul').find('a').removeClass('success');
@@ -37,30 +46,59 @@
       // logic to set the subscription form
       $('#subscription-size a').each(function (index, value) {
         if ($(this).hasClass('success')) {
-          console.log('Price', $(this).attr('data-size'));     
+          //console.log('Price', $(this).attr('data-size'));     
           $( "#subform input[name='size']" ).attr('value',$(this).attr('data-size'));
         }
       });
 
+      // checks for step 5 show logic
+      if ($('#thisisforme').hasClass('success')) {
+        // show step 5 for subscription, hide the other rows
+        $('#subscription-row').show('fast');
+        $('#giftsubscription-row').hide();
+        $('#onetimegift-row').hide(); 
+      } else if ($('#giftsubscription-choice').hasClass('success')) {
+        $('#subscription-row').hide();
+        $('#giftsubscription-row').show('fast');
+        $('#onetimegift-row').hide();  
+      } else if ($('#onetimegift-choice').hasClass('success')) {
+        $('#subscription-row').hide();
+        $('#giftsubscription-row').hide();
+        $('#onetimegift-row').show('fast');    
+      } else {
+        $('#subscription-row').hide();
+        $('#giftsubscription-row').hide();
+        $('#onetimegift-row').hide();    
+      }
+
       // defaults for recurring/non-recurring
-      if ($('#subscription-is_recurring').hasClass('success')) {
+      if ($('#thisisforme').hasClass('success')) {
         $("#subform input[name='sub_frequency']").attr('value', '1m');     
         $("#subform input[name='sub_startdate']").attr('value',11);
       } else {
         $("#subform input[name='sub_frequency']").attr('value', '');
-        $("#subform input[name='sub_startdate']").attr('value', '');            
+        $("#subform input[name='sub_startdate']").attr('value', '');               
       }
 
-      $('#subscription-choice a').each(function (index, value) {
+      if ($('#thisisagift').hasClass('success')) {
+        $("#giftchoice-row").show('fast');
+      } else {
+        $("#giftchoice-row").hide();              
+      }
+
+      $('.product-choice a').each(function (index, value) {
         if ($(this).hasClass('success')) {
-          console.log('Price', $(this).attr('data-price'));          
-          console.log('Freq', $(this).attr('data-freq'));   
+          $("#addtocart").removeClass('disabled');
+          $("#addtocart").attr('disabled',false);
+          //console.log('Price', $(this).attr('data-price'));          
+          //console.log('Freq', $(this).attr('data-freq'));   
           $("#subform input[name='name']").attr('value', $(this).attr('data-name'))       
           $("#subform input[name='price']").attr('value', $(this).attr('data-price'))       
           $("#subform input[name='code']").attr('value', $(this).attr('data-code'))    
+          $("#subform input[name='image']").attr('value', $(this).attr('data-img'))    
 
           // figure out if subscription recurring
-          if ($('#subscription-is_recurring').hasClass('success')) {
+          if ($('#thisisforme').hasClass('success')) {
             $("#subform input[name='sub_frequency']").attr('value', $(this).attr('data-freq'));     
             $("#subform input[name='sub_startdate']").attr('value',10);
             $("#subform input[name='code']").attr('value', $("#subform input[name='code']").attr('value')+'-RECUR');       
