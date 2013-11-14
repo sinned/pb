@@ -44,3 +44,8 @@
 .socialmedia a:hover {
   -webkit-filter: grayscale(50%);
 }
+
+/* line 15, ../sass/custom.scss */
+#cheetahWidget2012_contactable_inner, #cheetahWidget2012_contactForm {
+  background-color: #02bdb8 !important;
+}
