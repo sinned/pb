@@ -30,8 +30,8 @@
 						<img src="<?php echo WEBROOT; ?>img/PoopBuddy.png" alt="Make pickup fun and easy" />
 					</div>
 					<div class="large-7 columns">
-						<h2 style="padding:0;margin:80px 0 0 0; ">Make pickup fun and easy</h2>
-						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Poop bags delivered monthly</h3>
+						<h2 style="padding:0;margin:80px 0 0 0; ">Save time and money</h2>
+						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Starts at $8/month + free shipping</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>
