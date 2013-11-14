@@ -124,18 +124,18 @@ $header-font-family: 'Lato', Verdana, serif;
 //$header-font-weight: 700;
 // $header-font-style: normal;
 // $header-font-color: #222;
-// $header-line-height: 1.2;
+$header-line-height: .9;
 // $header-top-margin: .2em;
 $header-bottom-margin: .5em;
 // $header-text-rendering: optimizeLegibility;
 
 //// Heading font sizes
 
-// $h1-font-size: emCalc(44px);
-// $h2-font-size: emCalc(37px);
-// $h3-font-size: emCalc(27px);
-// $h4-font-size: emCalc(23px);
-// $h5-font-size: emCalc(18px);
+$h1-font-size: emCalc(30px);
+$h2-font-size: emCalc(27px);
+$h3-font-size: emCalc(23px);
+$h4-font-size: emCalc(18px);
+$h5-font-size: emCalc(15px);
 // $h6-font-size: 1em;
 
 //// Subheaders

@@ -12,6 +12,7 @@ switch ($_SERVER['SERVER_NAME']) {
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/custom.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/normalize.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/app.css" />
+<link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/jquery.bxslider.css" />
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php echo WEBROOT; ?>js/vendor/custom.modernizr.js"></script>
@@ -29,6 +30,8 @@ switch ($_SERVER['SERVER_NAME']) {
 </script>
 
 <script src="<?php echo WEBROOT; ?>js/vendor/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo WEBROOT; ?>js/vendor/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+
 <!-- BEGIN FOXYCART FILES -->
 <link rel="stylesheet" href="//cdn.foxycart.com/static/scripts/colorbox/1.3.23/style1_fc/colorbox.css?ver=1" type="text/css" media="screen" charset="utf-8" />
 <script src="//cdn.foxycart.com/poopbuddy/foxycart.colorbox.js?ver=2" type="text/javascript" charset="utf-8"></script>

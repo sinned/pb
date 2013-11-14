@@ -11,17 +11,51 @@
 <body>
 	<?php include "includes/header.php"; ?>
 	<section id="mainContent">
-		<div class="row">
-			<div class="large-6 columns">
-				<img src="<?php echo WEBROOT; ?>img/slider1-img.png" alt="Make pickup fun and easy" />
-			</div>
-			<div class="large-6 columns">
-				<h2 style="padding:0;margin:80px 0 0 0; ">Make pickup fun and easy</h2>
-				<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Poop bags delivered monthly</h3>
-				<p>
-					<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
-				</p>
+		<div class="slider1">
+			<div class="slide">
+				<div class="row">
+					<div class="large-5 columns">
+						<img src="<?php echo WEBROOT; ?>img/what-you-need.png" alt="What You Need. What Your Dog Loves" />
+					</div>
+					<div class="large-7 columns">
+						<h2 style="padding:0;margin:80px 0 0 0; ">What You Need. What Your Dog Loves</h2>
+						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
+						<p>
+							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
+						</p>
 
+					</div>
+				</div>			
+			</div>			
+			<div class="slide hide">
+				<div class="row">
+					<div class="large-5 columns">
+						<img src="<?php echo WEBROOT; ?>img/slider1-img.png" alt="Make pickup fun and easy" />
+					</div>
+					<div class="large-7 columns">
+						<h2 style="padding:0;margin:80px 0 0 0; ">Make pickup fun and easy</h2>
+						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Poop bags delivered monthly</h3>
+						<p>
+							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
+						</p>
+
+					</div>
+				</div>			
+			</div>
+			<div class="slide hide">
+				<div class="row">
+					<div class="large-5 columns">
+						<img src="<?php echo WEBROOT; ?>img/element.png" alt="Share the element of surprise" />
+					</div>
+					<div class="large-7 columns">
+						<h2 style="padding:0;margin:80px 0 0 0; ">Share the element of surprise</h2>
+						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Perfect gift for you + your friend</h3>
+						<p>
+							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
+						</p>
+
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">

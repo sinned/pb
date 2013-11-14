@@ -20,6 +20,13 @@
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
 
     // Begin Custom Javascript.
+    $('.slide').show();
+    $('.slider1').bxSlider({
+      minSlides: 1,
+      maxSlides: 1,
+      slideMargin: 0
+    });
+    
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
       $.cookie('show_squeeze', 'welcome', { expires: 365 });
       $('#squeezeModal').foundation('reveal', 'open');
