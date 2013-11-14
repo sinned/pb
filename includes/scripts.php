@@ -50,3 +50,4 @@ switch ($_SERVER['SERVER_NAME']) {
 		return true;
 	});
 </script>
+<script src="<?php echo WEBROOT; ?>js/vendor/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>

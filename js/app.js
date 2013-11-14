@@ -20,6 +20,11 @@
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
 
     // Begin Custom Javascript.
+    if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
+      $.cookie('show_squeeze', 'welcome', { expires: 365 });
+      $('#squeezeModal').foundation('reveal', 'open');
+    }    
+
     $('.toggle_gift').click(function(e) {    
       if ($(this).is(':checked')) {
         $(this).siblings().removeClass('hide');

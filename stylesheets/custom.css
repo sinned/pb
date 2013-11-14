@@ -59,3 +59,13 @@
 #sidebar ul {
   list-style-type: none;
 }
+
+/* line 23, ../sass/custom.scss */
+.reveal-modal {
+  z-index: 9999 !important;
+}
+
+/* line 24, ../sass/custom.scss */
+.reveal-modal-bg {
+  z-index: 9998 !important;
+}
