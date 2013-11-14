@@ -51,7 +51,7 @@ switch ($_SERVER['SERVER_NAME']) {
 
 <body id="checkout">
     <div id="pageContainer" style="width:760px; margin:0px auto;">
-        <a href="<?php echo WEBROOT; ?>"><img src="<?php echo WEBROOT; ?>img/poopbuddy-logo.png" alt="PoopBuddy" title="PoopBuddy" /></a>
+        <a href="<?php echo WEBROOT; ?>"><img style="width:300px;" src="<?php echo WEBROOT; ?>img/poopbuddy-logo.png" alt="PoopBuddy" title="PoopBuddy" /></a>
         <br />
         ^^cart^^
         ^^checkout^^
