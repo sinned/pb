@@ -158,3 +158,15 @@
 2013-11-14 01:23:40 overwrite stylesheets/app.css 
 2013-11-14 01:23:50 overwrite stylesheets/app.css 
 2013-11-14 01:24:33 overwrite stylesheets/app.css 
+2013-11-14 01:55:05 overwrite stylesheets/custom.css 
+2013-11-14 01:55:44     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
+2013-11-14 01:55:44 overwrite stylesheets/custom.css 
+2013-11-14 01:55:46     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
+2013-11-14 01:55:46 overwrite stylesheets/custom.css 
+2013-11-14 01:56:10     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
+2013-11-14 01:56:10 identical stylesheets/custom.css 
+2013-11-14 01:56:14     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
+2013-11-14 01:56:14 identical stylesheets/custom.css 
+2013-11-14 01:56:45     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
+2013-11-14 01:56:45 identical stylesheets/custom.css 
+2013-11-14 01:57:13 overwrite stylesheets/custom.css 

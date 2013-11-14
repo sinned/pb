@@ -69,3 +69,10 @@
 .reveal-modal-bg {
   z-index: 9998 !important;
 }
+
+/* line 26, ../sass/custom.scss */
+.comment {
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
