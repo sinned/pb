@@ -77,7 +77,7 @@
 			<div class="large-1 columns">
 			</div>
 			<div class="large-11 columns">
-				<h3 id="pricetext">Price: TBD, depending on your selections</h3>
+				<h3 id="pricetext">Price: </h3>
 			</div>
 		</div>
 		<div class="row">

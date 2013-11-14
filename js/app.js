@@ -33,7 +33,7 @@
     $('.clearprice').click(function(e) {
       e.preventDefault();
       $('.product-choice a').removeClass('success');
-      $('#pricetext').html('Price: TBD, depending on your selections');
+      $('#pricetext').html('Price: ');
       $("#addtocart").addClass('disabled');
       $("#addtocart").attr('disabled',true);      
     })
