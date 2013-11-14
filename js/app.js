@@ -51,20 +51,16 @@
         }
       });
 
-      // checks for step 5 show logic
+      // checks for step 4 show logic
       if ($('#thisisforme').hasClass('success')) {
         // show step 5 for subscription, hide the other rows
         $('#subscription-row').show('fast');
         $('#giftsubscription-row').hide();
         $('#onetimegift-row').hide(); 
-      } else if ($('#giftsubscription-choice').hasClass('success')) {
+      } else if ($('#thisisagift').hasClass('success')) {
         $('#subscription-row').hide();
         $('#giftsubscription-row').show('fast');
         $('#onetimegift-row').hide();  
-      } else if ($('#onetimegift-choice').hasClass('success')) {
-        $('#subscription-row').hide();
-        $('#giftsubscription-row').hide();
-        $('#onetimegift-row').show('fast');    
       } else {
         $('#subscription-row').hide();
         $('#giftsubscription-row').hide();

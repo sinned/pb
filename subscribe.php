@@ -48,18 +48,6 @@
   				</ul>	
   			</div>
   		</div>
-		<div id="giftchoice-row" class="row subfigurator hide">
-			<div class="large-1 columns">
-				<h3>4</h3>
-			</div>
-			<div class="large-11 columns ">
-				<ul id="gift-choice" class="button-group even-2">
-					<li><a href="#" id="giftsubscription-choice" class="clearprice secondary button">Gift Subscription</span></a></li>
-					<li><a href="#" id="onetimegift-choice" class="clearprice secondary button"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="<img src='<?php echo WEBROOT; ?>img/onetimegift-hover.png' />">One Time Gift</span></a></li>
-  				</ul>	
-  			</div>
-  		</div>  		
-
 
 		<div id="subscription-row" class="row subfigurator hide">
 			<div class="large-1 columns">
@@ -67,7 +55,7 @@
 			</div>
 			<div class="large-11 columns">  		
    				<ul id="subscription-choice" class="product-choice button-group even-3">
-					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 1 Month" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="Price: $10 / month" data-freq="1m" data-price="10" data-code="POOPBUDDY-SUBSCRIPTION-1MO">1 Month</a></li>
+					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, Monthly" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="Price: $10 / month" data-freq="1m" data-price="10" data-code="POOPBUDDY-SUBSCRIPTION-1MO">Monthly</a></li>
 					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 3 Months" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="Price: $9 / month <br /><small>(Save 10% with 3 months @ $9/month)</small>" data-freq="3m" data-price="27" data-code="POOPBUDDY-SUBSCRIPTION-3MO"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off!">3 Months</span></a></li>
 					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 6 Months" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="Price: $8 / month <br /><small>(Save 20% with 6 months @ $8/month)</small>" data-freq="6m" data-price="48" data-code="POOPBUDDY-SUBSCRIPTION-6MO"><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off!">6 Months</span></a></li>
   				</ul>		 
@@ -75,7 +63,7 @@
 		</div>
 		<div id="giftsubscription-row" class="row subfigurator hide">
 			<div class="large-1 columns">
-				<h3>5</h3>
+				<h3>4</h3>
 			</div>
 			<div class="large-11 columns">  		
    				<ul id="giftsubscription-choice" class="product-choice button-group even-2">
@@ -84,18 +72,6 @@
   				</ul>		 
 			</div>		
 		</div>
-		<div id="onetimegift-row" class="row subfigurator hide">
-			<div class="large-1 columns">
-				<h3>5</h3>
-			</div>
-			<div class="large-11 columns">  		
-   				<ul id="onetimegift-choice" class="product-choice button-group even-3">
-					<li><a href="#" class="secondary button" data-name="PoopBuddy Holiday Gift" data-img="http://poopbuddy.herokuapp.com/img/gift-ruv.png" data-pricetext="Price: $35" data-freq="" data-price="35" data-code="POOPBUDDY-GIFT-HOLIDAY">Holiday</a></li>
-					<li><a href="#" class="secondary button" data-name="PoopBuddy Birthday Gift" data-img="http://poopbuddy.herokuapp.com/img/gift-ruv.png" data-pricetext="Price: $35" data-freq="" data-price="35" data-code="POOPBUDDY-GIFT-BIRTHDAY">Birthday</a></li>
-					<li><a href="#" class="secondary button" data-name="PoopBuddy Puppy Shower Gift" data-img="http://poopbuddy.herokuapp.com/img/gift-ruv.png" data-pricetext="Price: $35" data-freq="" data-price="35" data-code="POOPBUDDY-GIFT-PUPPYSHOWER">Puppy Shower</a></li>
-  				</ul>		 
-			</div>		
-		</div>		
 
 		<div class="row subfigurator">
 			<div class="large-1 columns">
