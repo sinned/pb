@@ -54,3 +54,8 @@
 .success span.has-tip {
   color: #ffffff;
 }
+
+/* line 21, ../sass/custom.scss */
+#sidebar ul {
+  list-style-type: none;
+}

@@ -4,12 +4,23 @@
 
 <?php if ( have_posts() ) : ?>
 
-	<?php /* The loop */ ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-		<h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-		<p><?php echo the_content(); ?></p>
+	<div class="row">
+		<div class="large-9 columns">
 
-	<?php endwhile; ?>
+			<?php /* The loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+			<div class="row">
+				<div class="large-12 columns">
+				<h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+				<h6><?php the_time('F j, Y'); ?></h6>
+				<p><?php echo the_content(); ?></p>
+				</div>
+			</div>
+			<?php endwhile; ?>
+		</div>
+		<div class="large-3 columns">
+			<?php include "sidebar.php"; ?>
+		</div>
 
 <?php else : ?>
 	<p>No posts to show.</p>

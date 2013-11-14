@@ -3,7 +3,11 @@
 	<?php /* The loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<h3><?php echo the_title(); ?></h3>
+		<h6><?php the_time('F j, Y'); ?></h6>
 		<p><?php echo the_content(); ?></p>
+
+		<hr />
+		<?php comment_form(); ?>
 
 		<nav class="nav-single">
 			<span class="nav-previous left"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'twentytwelve' ) . '</span> %title' ); ?></span>
