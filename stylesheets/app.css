@@ -2109,13 +2109,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 173, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
-  background-color: #5da423;
-  border-color: #457a1a;
+  background-color: #02bdb8;
+  border-color: #018b87;
   color: white;
 }
 /* line 120, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: #457a1a;
+  background-color: #018b87;
 }
 /* line 131, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
@@ -2221,8 +2221,8 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 186, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
-  background-color: #5da423;
-  border-color: #457a1a;
+  background-color: #02bdb8;
+  border-color: #018b87;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2231,7 +2231,7 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .bu
 }
 /* line 120, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #457a1a;
+  background-color: #018b87;
 }
 /* line 131, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -2239,7 +2239,7 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 142, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #5da423;
+  background-color: #02bdb8;
 }
 /* line 187, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
@@ -3280,11 +3280,11 @@ form.custom .custom.disabled {
 }
 /* line 237, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
-  background: #5da423;
+  background: #02bdb8;
 }
 /* line 239, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success:hover {
-  background: #457a1a;
+  background: #018b87;
 }
 /* line 243, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
@@ -4098,8 +4098,8 @@ form.custom .custom.disabled {
 }
 /* line 101, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_alert-boxes.scss */
 .alert-box.success {
-  background-color: #5da423;
-  border-color: #457a1a;
+  background-color: #02bdb8;
+  border-color: #018b87;
   color: white;
 }
 /* line 102, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_alert-boxes.scss */
@@ -4363,7 +4363,7 @@ form.custom .custom.disabled {
 }
 /* line 57, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_progress-bars.scss */
 .progress.success .meter {
-  background: #5da423;
+  background: #02bdb8;
   height: 100%;
   display: block;
 }
@@ -4515,8 +4515,8 @@ form.custom .custom.disabled {
     background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
-    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #c0fefd, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #c0fefd, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
   }
   /* line 185, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_switch.scss */
   div.switch:hover > span, div.switch:focus > span {
