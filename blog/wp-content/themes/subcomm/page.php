@@ -7,7 +7,6 @@
 				<?php /* The loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div id="page-<?php the_title_attribute("page-"); ?>">
-						<h1><?php echo the_title(); ?></h1>
 						<p><?php echo the_content(); ?></p>
 					</div>
 				<?php endwhile; ?>
