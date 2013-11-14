@@ -8,7 +8,6 @@
 		<div class="large-12 column">
 			<ul class="inline-list left">
 				<li><a href="<?php echo WEBROOT;?>about/">About</a></li>
-				<li><a href="<?php echo WEBROOT;?>press/">Press</a></li>
 				<li><a href="<?php echo WEBROOT;?>faq/">FAQ</a></li>
 			</ul>
 			<ul class="inline-list right socialmedia">

@@ -1,6 +1,7 @@
 <div class="row">
 	<div class="large-12 column">
-		<div class="contain-to-grid fixed">
+		<div class="contain-to-grid text-center fixed">
+			  <img class="" src="<?php echo WEBROOT;?>img/charity-awning.jpg" alt="We donate 10% to dog rescues" />
 			<nav class="top-bar">
 			  <ul class="title-area">
 			    <!-- Title Area -->
@@ -21,7 +22,9 @@
 					<li><a href="<?php echo WEBROOT; ?>what-you-get/">What You Get</a></li>
 					<li class="divider"></li>    	
 					<li><a href="<?php echo WEBROOT; ?>buy/">Get Started</a></li>
-					<li class="divider"></li>    	
+					<li class="divider"></li>    
+					<li><a href="<?php echo WEBROOT;?>press/">Press</a></li>
+					<li class="divider"></li>    
 					<li><a href="<?php echo WEBROOT; ?>blog/">Blog</a></li>					
 				</ul>
 			  </section>
