@@ -1169,8 +1169,8 @@ $topbar-height: 75px;
 //// Link colors and styles for top-level nav
 
 $topbar-link-color: #333;
-// $topbar-link-weight: bold;
-// $topbar-link-font-size: emCalc(13px);
+$topbar-link-weight: normal;
+$topbar-link-font-size: emCalc(17px);
 // $topbar-link-hover-lightness: -90% !default; // Darken by 30%
 $topbar-link-hover-lightness: 0; // do not darken.
 
