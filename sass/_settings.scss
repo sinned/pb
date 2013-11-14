@@ -1171,11 +1171,12 @@ $topbar-height: 75px;
 $topbar-link-color: #333;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: emCalc(13px);
-//$topbar-link-hover-lightness: -90% !default; // Darken by 30%
+// $topbar-link-hover-lightness: -90% !default; // Darken by 30%
+$topbar-link-hover-lightness: 0; // do not darken.
 
 //// Top bar dropdown elements
 
-$topbar-dropdown-bg: #fff;
+$topbar-dropdown-bg: #02bdb8;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
