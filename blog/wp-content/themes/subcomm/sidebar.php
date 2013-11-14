@@ -42,3 +42,20 @@
 		<?php endif; // end primary widget area ?>
 			</ul>
 		</div><!-- #sidebar .widget-area -->
+
+<ul class="inline-list socialmedia">
+	<li><a href="http://www.facebook.com/poopbuddy"><img src="<?php echo WEBROOT; ?>img/facebook-green.png" /></a></li>
+	<li><a href="http://www.twitter.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/twitter-green.png" /></a></li>
+	<li><a href="http://www.pinterest.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/pinterest-green.png" /></a></li>
+	<li><a href="http://www.instagram.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/instagram-green.png" /></a></li>				
+</ul>
+
+<!-- Begin MailChimp Signup Form -->
+<div class="" id="mc_embed_signup1">
+<form action="http://poopbuddy.us7.list-manage.com/subscribe/post?u=7cccd32f632de3c4496407d9b&amp;id=4caf43e792" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<label for="mce-EMAIL">Join for news &amp; offers!</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email" required>
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="small button" style='background:#fcb318 !important; color:#fff;'>
+</form>
+</div>
+<!--End mc_embed_signup-->		
