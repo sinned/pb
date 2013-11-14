@@ -49,3 +49,8 @@
 #cheetahWidget2012_contactable_inner, #cheetahWidget2012_contactForm {
   background-color: #02bdb8 !important;
 }
+
+/* line 19, ../sass/custom.scss */
+.success span.has-tip {
+  color: #ffffff;
+}
