@@ -11,9 +11,9 @@
 <body>
 	<?php include "includes/header.php"; ?>
 	<section id="mainContent">
-		<div class="slider1">
-			<div class="slide">
-				<div class="row">
+		<div class="row">
+			<div class="slider1">
+				<div class="slide">
 					<div class="large-5 columns">
 						<img src="<?php echo WEBROOT; ?>img/what-you-need.png" alt="What You Need. What Your Dog Loves" />
 					</div>
@@ -23,14 +23,11 @@
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>
-
 					</div>
 				</div>			
-			</div>			
-			<div class="slide hide">
-				<div class="row">
+				<div class="slide hide">
 					<div class="large-5 columns">
-						<img src="<?php echo WEBROOT; ?>img/slider1-img.png" alt="Make pickup fun and easy" />
+						<img src="<?php echo WEBROOT; ?>img/PoopBuddy.png" alt="Make pickup fun and easy" />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">Make pickup fun and easy</h2>
@@ -38,12 +35,9 @@
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>
-
 					</div>
-				</div>			
-			</div>
-			<div class="slide hide">
-				<div class="row">
+				</div>
+				<div class="slide hide">
 					<div class="large-5 columns">
 						<img src="<?php echo WEBROOT; ?>img/element.png" alt="Share the element of surprise" />
 					</div>
