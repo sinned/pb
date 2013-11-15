@@ -13,8 +13,10 @@
 	<section id="mainContent">
 		<div class="row">
 			<div class="large-12 columns text-center">
-				<h2>Choose your Plan</h2>
-				<img src="<?php echo WEBROOT; ?>img/poopbuddy-package.jpg" "PoopBuddy" />
+				<h1>Choose your Plan</h1>
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo WEBROOT; ?>img/july4-circle.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo WEBROOT; ?>img/stpatricks-circle.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo WEBROOT; ?>img/thanksgiving-circle.png" "PoopBuddy" />
 			</div>
 		</div>
 		<div class="row subfigurator">
