@@ -1,4 +1,5 @@
 <?php
+define('S3IMGROOT','http://i.poopbuddy.com/');
 switch ($_SERVER['SERVER_NAME']) {
 	case 'localhost':
 		define('WEBROOT', '/pb/');

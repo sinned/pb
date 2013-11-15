@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="large-12 columns text-center">
-		<img style="margin:-8px;" src="<?php echo WEBROOT; ?>img/doggy-peeking.png" alt="Peeking Dog" />
+		<img style="margin:-8px;" src="<?php echo S3IMGROOT; ?>img/doggy-peeking.png" alt="Peeking Dog" />
 	</div>
 </div>
 <section id="footer">
