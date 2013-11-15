@@ -21,7 +21,7 @@
 		<div class="large-3 columns">
 			<?php include "sidebar.php"; ?>
 		</div>
-
+	</div>
 <?php else : ?>
 	<p>No posts to show.</p>
 <?php endif; ?>

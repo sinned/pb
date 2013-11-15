@@ -170,3 +170,12 @@
 2013-11-14 01:56:45     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
 2013-11-14 01:56:45 identical stylesheets/custom.css 
 2013-11-14 01:57:13 overwrite stylesheets/custom.css 
+2013-11-14 02:14:04     error sass/custom.scss (Line 26: Invalid CSS after "...ttom: 1px solid": expected ";", was ": #eee; }")
+2013-11-14 02:14:05 overwrite stylesheets/custom.css 
+2013-11-14 02:14:20     error sass/custom.scss (Line 26: Invalid CSS after "...ttom: 1px solid": expected ";", was ": #eee; }")
+2013-11-14 02:14:20 identical stylesheets/custom.css 
+2013-11-14 02:14:20     error sass/custom.scss (Line 26: Invalid CSS after "...-top: 1px solid": expected ";", was ": #eee; border-...")
+2013-11-14 02:14:20 overwrite stylesheets/custom.css 
+2013-11-14 02:14:35     error sass/custom.scss (Line 26: Invalid CSS after "...ttom: 1px solid": expected ";", was ": #eee; }")
+2013-11-14 02:14:35 overwrite stylesheets/custom.css 
+2013-11-14 02:14:41 overwrite stylesheets/custom.css 
