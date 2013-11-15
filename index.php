@@ -15,11 +15,11 @@
 			<div class="slider1">
 				<div class="slide">
 					<div class="large-5 columns">
-						<img src="<?php echo WEBROOT; ?>img/what-you-need.png" alt="What You Need. What Your Dog Loves" />
+						<img src="<?php echo WEBROOT; ?>img/450x-what-you-need.png" alt="What You Need. What Your Dog Loves" />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">What You Need. What Your Dog Loves</h2>
-						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
+						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>
@@ -31,7 +31,7 @@
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">Save time and money</h2>
-						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Starts at $8/month + free shipping</h3>
+						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Starts at $8/month + free shipping</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>
@@ -39,11 +39,11 @@
 				</div>
 				<div class="slide hide">
 					<div class="large-5 columns">
-						<img src="<?php echo WEBROOT; ?>img/element.png" alt="Share the element of surprise" />
+						<img src="<?php echo WEBROOT; ?>img/450x-element-of-surprise.png" alt="Share the element of surprise" />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">Share the element of surprise</h2>
-						<h3 style="padding:0;margin:0 0 20px 0;" class="subheader">Perfect gift for you + your friend</h3>
+						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">The gift you know they&rsquo;ll use</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>

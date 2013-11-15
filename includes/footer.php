@@ -34,20 +34,21 @@
 	</div>
 </section>
 
-<div id="squeezeModal" class="reveal-modal" style="border:10px solid #02bdb8;background:url('<?php echo WEBROOT; ?>img/squeeze.png') no-repeat right #fff">
+<div id="squeezeModal" class="reveal-modal" style="max-width:800px; border:10px solid #02bdb8;background:url('<?php echo WEBROOT; ?>img/squeeze.png') no-repeat right #fff">
     <a class="close-reveal-modal">&#215;</a>
 
     <div class="row">
     	<div class="large-7 columns">
-    		<h2>Sign Up &amp; Save $5!</h2>
-    		<p>Join our PoopBuddy e-newsletter and get a $5 welcome offer.<br />
-    			Plus, enter in for contests, deals and announcements!</p>
+    		<h1>Sign Up For $5 Off!</h1>
+    		<p>Join our e-newsletter and get a $5 welcome offer.<br />
+				Plus, enter in for contests, deals and announcements! <br />
+				We promise not to spam you.</p>
 			<!-- Begin MailChimp Signup Form -->
 
 			<div id="mc_embed_signup">
 			<form action="http://poopbuddy.us7.list-manage2.com/subscribe/post?u=7cccd32f632de3c4496407d9b&amp;id=4caf43e792" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				<input style="width:385px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				<div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 			</form>
 			</div>
 			<!--End mc_embed_signup-->

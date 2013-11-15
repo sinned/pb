@@ -1727,27 +1727,27 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 193, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 1.25em;
+  font-size: 1.4375em;
 }
 
 /* line 194, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.0625em;
+  font-size: 1.25em;
 }
 
 /* line 195, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.125em;
+  font-size: 1.375em;
 }
 
 /* line 196, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 0.8125em;
+  font-size: 1.1875em;
 }
 
 /* line 197, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 0.9375em;
+  font-size: 1.3125em;
 }
 
 /* line 198, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
@@ -1939,22 +1939,22 @@ blockquote p {
 
   /* line 358, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 1.875em;
+    font-size: 2.0625em;
   }
 
   /* line 359, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 1.6875em;
+    font-size: 1.875em;
   }
 
   /* line 360, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.4375em;
+    font-size: 1.6875em;
   }
 
   /* line 361, ../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss/foundation/components/_type.scss */
   h4 {
-    font-size: 1.125em;
+    font-size: 1.5em;
   }
 }
 /*
