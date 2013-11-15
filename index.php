@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>PoopBuddy</title>
+	<title>Get Poop Bags Delivered Monthly | Fun and Easy | PoopBuddy</title>
 	<?php include "includes/scripts.php"; ?>
 </head>
 <body>
