@@ -13,10 +13,9 @@
 	<section id="mainContent">
 		<div class="row">
 			<div class="large-12 columns text-center">
-				<h1>Choose your Plan</h1>
-				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/july4-circle.png" "PoopBuddy" />
-				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/stpatricks-circle.png" "PoopBuddy" />
-				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/thanksgiving-circle.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-green-theme.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-July-theme.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme.png" "PoopBuddy" />
 			</div>
 		</div>
 		<div class="row subfigurator">
@@ -63,7 +62,7 @@
   				</ul>		 
 			</div>		
 		</div>
-		<div id="giftsubscription-row" class="row subfigurator hide">
+		<div id="giftsubscription-row" class="showifgift row subfigurator hide">
 			<div class="large-1 columns">
 				<h3>4</h3>
 			</div>
@@ -74,6 +73,16 @@
   				</ul>		 
 			</div>		
 		</div>
+
+		<div class="showifgift row hide">
+			<div class="large-1 columns">
+				<h3>5</h3>
+			</div>
+			<div class="large-11 columns">
+				<h6>Gift Message</h6>
+				<textarea id="giftmessage_input" name="GiftMessage" cols="35" rows="6"></textarea>
+			</div>
+		</div>				
 
 		<div class="row subfigurator">
 			<div class="large-1 columns">
@@ -96,6 +105,7 @@
 					<input type="hidden" name="sub_startdate" value="10" />
 					<input type="hidden" name="sub_enddate" />
 					<input type="hidden" name="shipto" />
+					<input type="hidden" name="Gift_Message" value="" />								
 					<input id="addtocart" style="width:100%" class="round primary button disabled" disabled type="submit" value="Add to Cart" />
 				</form>				
 			</div>

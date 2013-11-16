@@ -45,7 +45,7 @@
     $('.clearprice').click(function(e) {
       e.preventDefault();
       $('.product-choice a').removeClass('success');
-      $('#pricetext').html('Price: ');
+      $('#pricetext').html('');
       $("#addtocart").addClass('disabled');
       $("#addtocart").attr('disabled',true);      
     })
@@ -67,15 +67,15 @@
       if ($('#thisisforme').hasClass('success')) {
         // show step 5 for subscription, hide the other rows
         $('#subscription-row').show('fast');
-        $('#giftsubscription-row').hide();
+        $('.showifgift').hide();
         $('#onetimegift-row').hide(); 
       } else if ($('#thisisagift').hasClass('success')) {
         $('#subscription-row').hide();
-        $('#giftsubscription-row').show('fast');
+        $('.showifgift').show('fast');
         $('#onetimegift-row').hide();  
       } else {
         $('#subscription-row').hide();
-        $('#giftsubscription-row').hide();
+        $('.showifgift').hide();
         $('#onetimegift-row').hide();    
       }
 

@@ -21,7 +21,7 @@
 						<h2 style="padding:0;margin:80px 0 0 0; ">What You Need. What Your Dog Loves</h2>
 						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
 						<p>
-							<a href="<?php echo S3IMGROOT; ?>buy/" class="large button round">Get Started</a>
+							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 						</p>
 					</div>
 				</div>			
