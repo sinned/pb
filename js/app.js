@@ -36,6 +36,7 @@
       $("#addtocart").attr('disabled',true);
       $('.showifgift').hide();
       $('#giftmessage_input').val('');
+      $( "#subform input[name='Gift_Message']" ).attr('value', '');
     });
     
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
@@ -80,6 +81,7 @@
         $('#subscription-row').show('fast');
         $('.showifgift').hide();
         $('#giftmessage_input').val('');
+        $( "#subform input[name='Gift_Message']" ).attr('value', '');
         $('#onetimegift-row').hide(); 
       } else if ($('#thisisagift').hasClass('success')) {
         $('#subscription-row').hide();
@@ -89,6 +91,7 @@
         $('#subscription-row').hide();
         $('.showifgift').hide();
         $('#giftmessage_input').val('');
+        $( "#subform input[name='Gift_Message']" ).attr('value', '');
         $('#onetimegift-row').hide();    
       }
 

@@ -39,10 +39,8 @@
 
     <div class="row">
     	<div class="large-7 columns">
-    		<h1>Sign Up For $5 Off!</h1>
-    		<p>Join our e-newsletter and get a $5 welcome offer.<br />
-				Plus, enter in for contests, deals and announcements! <br />
-				We promise not to spam you.</p>
+    		<h1>Sign Up For 50% Off!</h1>
+    		<p>Join our pack to get your welcome discount, special offer alerts, contests and more.
 			<!-- Begin MailChimp Signup Form -->
 
 			<div id="mc_embed_signup">
