@@ -26,6 +26,15 @@
       maxSlides: 1,
       slideMargin: 0
     });
+
+    $('#subform').submit(function(e) {
+      // reset the form
+      $('.success').removeClass('success');
+      $('#whofor').val('');
+      $('#pricetext').html('');
+      $('#addtocart').addClass('disabled');
+      $("#addtocart").attr('disabled',true);      
+    });
     
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
       $.cookie('show_squeeze', 'welcome', { expires: 365 });
@@ -45,7 +54,7 @@
     $('.clearprice').click(function(e) {
       e.preventDefault();
       $('.product-choice a').removeClass('success');
-      $('#pricetext').html('Price: ');
+      $('#pricetext').html('');
       $("#addtocart").addClass('disabled');
       $("#addtocart").attr('disabled',true);      
     })
@@ -124,7 +133,7 @@
     });
 
     $('#whofor').change(function (){
-      console.log('it is for: ', $(this).val());
+      //console.log('it is for: ', $(this).val());
       $( "#subform input[name='shipto']" ).attr('value', $(this).val());
     });
 
