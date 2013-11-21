@@ -33,7 +33,9 @@
       $('#whofor').val('');
       $('#pricetext').html('');
       $('#addtocart').addClass('disabled');
-      $("#addtocart").attr('disabled',true);      
+      $("#addtocart").attr('disabled',true);
+      $('.showifgift').hide();
+      $('#giftmessage_input').val('');
     });
     
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
@@ -77,6 +79,7 @@
         // show step 5 for subscription, hide the other rows
         $('#subscription-row').show('fast');
         $('.showifgift').hide();
+        $('#giftmessage_input').val('');
         $('#onetimegift-row').hide(); 
       } else if ($('#thisisagift').hasClass('success')) {
         $('#subscription-row').hide();
@@ -85,6 +88,7 @@
       } else {
         $('#subscription-row').hide();
         $('.showifgift').hide();
+        $('#giftmessage_input').val('');
         $('#onetimegift-row').hide();    
       }
 
