@@ -69,6 +69,7 @@
 				<h6>Gift Message</h6>
 				<textarea id="giftmessage_input" name="GiftMessage" cols="35" rows="6"></textarea>
 			</div>
+		</div>
 		<div class="row subfigurator">
 			<div class="large-1 columns">
 			</div>

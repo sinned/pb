@@ -13,10 +13,9 @@
 	<section id="mainContent">
 		<div class="row">
 			<div class="large-12 columns text-center">
-				<h1>Choose your Plan</h1>
-				<img style="width:300px;margin-bottom:10px;" src="<?php echo WEBROOT; ?>img/july4-circle.png" "PoopBuddy" />
-				<img style="width:300px;margin-bottom:10px;" src="<?php echo WEBROOT; ?>img/stpatricks-circle.png" "PoopBuddy" />
-				<img style="width:300px;margin-bottom:10px;" src="<?php echo WEBROOT; ?>img/thanksgiving-circle.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-green-theme.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-July-theme.png" "PoopBuddy" />
+				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme.png" "PoopBuddy" />
 			</div>
 		</div>
 		<div class="row subfigurator">
@@ -57,23 +56,33 @@
 			</div>
 			<div class="large-11 columns">  		
    				<ul id="subscription-choice" class="product-choice button-group even-3">
-					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, Monthly" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="$10 / month + Free Shipping" data-freq="1m" data-price="10" data-code="POOPBUDDY-SUBSCRIPTION-1MO">Monthly</a></li>
-					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off!"><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 3 Months" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="$9 / month + Free Shipping <br /><small>(Save 10% with 3 months of goodies)</small>" data-freq="3m" data-price="27" data-code="POOPBUDDY-SUBSCRIPTION-3MO">3 months of goodies</a></span></li>
-					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off!"><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 6 Months" data-img="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" data-pricetext="$8 / month + Free Shipping <br /><small>(Save 20% with 6 months of goodies)</small>" data-freq="6m" data-price="48" data-code="POOPBUDDY-SUBSCRIPTION-6MO">6 months of goodies</a></span></li>
+					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, Monthly" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$10 / month + Free Shipping" data-freq="1m" data-price="10" data-code="POOPBUDDY-SUBSCRIPTION-1MO">Monthly</a></li>
+					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off!"><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 3 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$9 / month + Free Shipping <br /><small>(Save 10% with 3 months of goodies)</small>" data-freq="3m" data-price="27" data-code="POOPBUDDY-SUBSCRIPTION-3MO">3 months of goodies</a></span></li>
+					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off!"><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 6 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$8 / month + Free Shipping <br /><small>(Save 20% with 6 months of goodies)</small>" data-freq="6m" data-price="48" data-code="POOPBUDDY-SUBSCRIPTION-6MO">6 months of goodies</a></span></li>
   				</ul>		 
 			</div>		
 		</div>
-		<div id="giftsubscription-row" class="row subfigurator hide">
+		<div id="giftsubscription-row" class="showifgift row subfigurator hide">
 			<div class="large-1 columns">
 				<h3>4</h3>
 			</div>
 			<div class="large-11 columns">  		
    				<ul id="giftsubscription-choice" class="product-choice button-group even-2">
-					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off per month!"><a href="#" class="secondary button" data-name="PoopBuddy Gift Subscription, 3 Months" data-img="http://poopbuddy.herokuapp.com/img/gift-sub.png" data-pricetext="$27 + Free Shipping <br /><small>(3 months @ $9/month)</small>" data-freq="" data-price="27" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-3MO">3 Months</a></span></li>
-					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off per month!"><a href="#" class="secondary button" data-name="PoopBuddy Gift Subscription, 6 Months" data-img="http://poopbuddy.herokuapp.com/img/gift-sub.png" data-pricetext="$48 + Free Shipping <br /><small>(6 months @ $8/month)</small>" data-freq="" data-price="48" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-6MO">6 Months</a></span></li>
+					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off per month!"><a href="#" class="secondary button" data-name="PoopBuddy Gift Subscription, 3 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$27 + Free Shipping" data-freq="" data-price="27" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-3MO">3 months of goodies</a></span></li>
+					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off per month!"><a href="#" class="secondary button" data-name="PoopBuddy Gift Subscription, 6 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$48 + Free Shipping" data-freq="" data-price="48" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-6MO">6 months of goodies</a></span></li>
   				</ul>		 
 			</div>		
 		</div>
+
+		<div class="showifgift row hide">
+			<div class="large-1 columns">
+				<h3>5</h3>
+			</div>
+			<div class="large-11 columns">
+				<h6>Gift Message</h6>
+				<textarea id="giftmessage_input" name="GiftMessage" cols="35" rows="6"></textarea>
+			</div>
+		</div>				
 
 		<div class="row subfigurator">
 			<div class="large-1 columns">
@@ -89,13 +98,14 @@
 				<form id="subform" action="https://poopbuddy.foxycart.com/cart" method="post">
 					<input type="hidden" name="name" value="PoopBuddy Subscription, 1 Month" />
 					<input type="hidden" name="code" value="POOPBUDDY-SUBSCRIPTION-1MO-RECUR" />
-					<input type="hidden" name="image" value="http://poopbuddy.herokuapp.com/img/poopbuddy-package.jpg" />					
+					<input type="hidden" name="image" value="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" />					
 					<input type="hidden" name="size" value="" />
 					<input type="hidden" name="price" value="10" />
 					<input type="hidden" name="sub_frequency" value="1m" />
 					<input type="hidden" name="sub_startdate" value="10" />
 					<input type="hidden" name="sub_enddate" />
 					<input type="hidden" name="shipto" />
+					<input type="hidden" name="Gift_Message" value="" />								
 					<input id="addtocart" style="width:100%" class="round primary button disabled" disabled type="submit" value="Add to Cart" />
 				</form>				
 			</div>

@@ -1,12 +1,12 @@
 <div class="row">
 	<div class="large-12 column">
 		<div class="contain-to-grid text-center fixed">
-			<img style="margin-bottom:10px;" class="" src="<?php echo WEBROOT;?>img/charity-awning.jpg" alt="We donate 10% to dog rescues" />
+			<img style="margin-bottom:10px;" class="" src="<?php echo S3IMGROOT;?>img/awning-holiday2.jpg" alt="We donate 10% to dog rescues" />
 			<nav class="top-bar">
 			  <ul class="title-area">
 			    <!-- Title Area -->
 			    <li class="name">
-			    	<a href="<?php echo WEBROOT; ?>"><img style="width:250px;" src="<?php echo WEBROOT; ?>img/poopbuddy-logo.png" alt="PoopBuddy" title="PoopBuddy" /></a>
+			    	<a href="<?php echo WEBROOT; ?>"><img style="width:250px;" src="<?php echo S3IMGROOT; ?>img/poopbuddy-logo.png" alt="PoopBuddy" title="PoopBuddy" /></a>
 			    </li>
 			    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
