@@ -35,8 +35,10 @@
       $('#addtocart').addClass('disabled');
       $("#addtocart").attr('disabled',true);
       $('.showifgift').hide();
+      $('#giftemail_input').val('');      
       $('#giftmessage_input').val('');
-      $( "#subform input[name='Gift_Message']" ).attr('value', '');
+      //$( "#subform input[name='Gift_Message']" ).attr('value', '');
+      //$( "#subform input[name='Gift_Email']" ).attr('value', '');        
     });
     
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
@@ -80,7 +82,9 @@
         // show step 5 for subscription, hide the other rows
         $('#subscription-row').show('fast');
         $('.showifgift').hide();
+        $('#giftemail_input').val('');              
         $('#giftmessage_input').val('');
+        $( "#subform input[name='Gift_Email']" ).attr('value', '');        
         $( "#subform input[name='Gift_Message']" ).attr('value', '');
         $('#onetimegift-row').hide(); 
       } else if ($('#thisisagift').hasClass('success')) {
@@ -90,7 +94,9 @@
       } else {
         $('#subscription-row').hide();
         $('.showifgift').hide();
+        $('#giftemail_input').val('');      
         $('#giftmessage_input').val('');
+        $( "#subform input[name='Gift_Email']" ).attr('value', '');                
         $( "#subform input[name='Gift_Message']" ).attr('value', '');
         $('#onetimegift-row').hide();    
       }
@@ -147,6 +153,11 @@
     $('#giftmessage_input').change(function (){
       $( "#subform input[name='Gift_Message']" ).attr('value', $(this).val());
     });    
+
+    $('#giftemail_input').change(function (){
+      $( "#subform input[name='Gift_Email']" ).attr('value', $(this).val());
+    });    
+
 
     $('.faq-answer').hide(); // hide FAQs
 

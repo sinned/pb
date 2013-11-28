@@ -79,6 +79,15 @@
 				<h3>5</h3>
 			</div>
 			<div class="large-11 columns">
+				<input id="giftemail_input" name="GiftEmail" type="text" placeholder="Giftee's Email Address?" />
+			</div>
+		</div>		
+
+		<div class="showifgift row hide">
+			<div class="large-1 columns">
+				<h3>6</h3>
+			</div>
+			<div class="large-11 columns">
 				<h6>Gift Message</h6>
 				<textarea id="giftmessage_input" name="GiftMessage" cols="35" rows="6"></textarea>
 			</div>
@@ -105,7 +114,8 @@
 					<input type="hidden" name="sub_startdate" value="10" />
 					<input type="hidden" name="sub_enddate" />
 					<input type="hidden" name="shipto" />
-					<input type="hidden" name="Gift_Message" value="" />								
+					<input type="hidden" name="Gift_Email" value="" />
+					<input type="hidden" name="Gift_Message" value="" />
 					<input id="addtocart" style="width:100%" class="round primary button disabled" disabled type="submit" value="Add to Cart" />
 				</form>				
 			</div>
