@@ -40,6 +40,26 @@ switch ($_SERVER['SERVER_NAME']) {
 ^^receipt_only_begin^^
 ^^analytics_google_ga_async^^
 ^^receipt_only_end^^
+
+<!-- Google Code for Subscribed Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 990593985;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "GOg8CMf_-QcQwYet2AM";
+var google_conversion_value = 0;
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/990593985/?value=0&amp;label=GOg8CMf_-QcQwYet2AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 </head>
 
 <body id="checkout">
