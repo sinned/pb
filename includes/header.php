@@ -23,6 +23,8 @@
 					<li class="divider"></li>    	
 					<li><a href="<?php echo WEBROOT; ?>buy/">Get Started</a></li>
 					<li class="divider"></li>    
+					<li><a href="http://store.poopbuddy.com/">Store</a></li>
+					<li class="divider"></li>    					
 					<li><a href="<?php echo WEBROOT;?>press/">Press</a></li>
 					<li class="divider"></li>    
 					<li><a href="<?php echo WEBROOT; ?>blog/">Blog</a></li>					
