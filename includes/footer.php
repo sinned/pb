@@ -85,6 +85,7 @@ return true;
 
 <script src="<?php echo WEBROOT; ?>js/app.js"></script>
 <script src="<?php echo WEBROOT; ?>js/foundation.min.js"></script>
+<script type="text/javascript" async data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 
 <script>
 $(document).foundation();

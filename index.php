@@ -15,7 +15,7 @@
 			<div class="slider1">
 				<div class="slide">
 					<div class="large-5 columns">
-						<img src="<?php echo S3IMGROOT; ?>img/450x-poopbuddychristmas.png" alt="What You Need. What Your Dog Loves" />
+						<img src="<?php echo S3IMGROOT; ?>img/450x-poopbuddychristmas.png" alt="What You Need. What Your Dog Loves"  />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">What You Need. What Your Dog Loves</h2>
