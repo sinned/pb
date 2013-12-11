@@ -84,6 +84,13 @@ return true;
 </script>
 
 <script src="<?php echo WEBROOT; ?>js/app.js"></script>
+
+<!-- Foundation 3 for IE 8 and earlier -->
+<!--[if lt IE 9]>
+    <script src="<?php echo WEBROOT; ?>js/foundation3/foundation.min.js"></script>
+    <script src="<?php echo WEBROOT; ?>js/foundation3/app.js"></script>
+<![endif]-->
+
 <script src="<?php echo WEBROOT; ?>js/foundation.min.js"></script>
 <script type="text/javascript" async data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 

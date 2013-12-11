@@ -19,6 +19,12 @@ switch ($_SERVER['SERVER_NAME']) {
 <script src="<?php echo WEBROOT; ?>js/vendor/custom.modernizr.js"></script>
 <!-- start Dropifi --> <script type='text/javascript' src='https://s3.amazonaws.com/dropifi/js/widget/dropifi_widget.min.js'></script><script type='text/javascript'>document.renderDropifiWidget('f5b6a5f3cdb5a8370a48ef8ffa70a5ee-1384393592402');</script> <!-- end Dropifi -->
 
+<!-- Foundation 3 for IE 8 and earlier -->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="<?php echo WEBROOT; ?>css/foundation3/normalize.css">
+  <link rel="stylesheet" href="<?php echo WEBROOT; ?>css/foundation3/foundation.css">
+  <link rel="stylesheet" href="<?php echo WEBROOT; ?>css/foundation3/app.css">
+<![endif]-->
 
 <?php 
 /* "new" universal tracking GA code
