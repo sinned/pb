@@ -1,3 +1,6 @@
+  var $doc = $(document),
+      Modernizr = window.Modernizr;
+
   $(document).ready(function() {
     $.fn.foundationAlerts           ? $doc.foundationAlerts() : null;
     $.fn.foundationButtons          ? $doc.foundationButtons() : null;
