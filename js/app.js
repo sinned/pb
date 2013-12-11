@@ -45,6 +45,7 @@
       $('.showifgift').hide();
       $('#giftemail_input').val('');      
       $('#giftmessage_input').val('');
+      $("#subform input[name='shipto']" ).attr('value', '');
       //$( "#subform input[name='Gift_Message']" ).attr('value', '');
       //$( "#subform input[name='Gift_Email']" ).attr('value', '');        
     });
