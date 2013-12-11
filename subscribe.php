@@ -116,7 +116,7 @@
 					<input type="hidden" name="shipto" />
 					<input type="hidden" name="Gift_Email" value="" />
 					<input type="hidden" name="Gift_Message" value="" />
-					<input id="addtocart" style="width:100%" class="round primary button disabled" disabled type="submit" value="Add to Cart" />
+					<input id="addtocart" style="width:100%" class="round primary button disabled" type="submit" value="Add to Cart" />
 				</form>				
 			</div>
 		</div>
