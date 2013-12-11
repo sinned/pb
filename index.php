@@ -12,8 +12,8 @@
 	<?php include "includes/header.php"; ?>
 	<section id="mainContent">
 		<div class="row">
-			<div class="slider1">
-				<div class="slide">
+			<ul class="slider1">
+				<li class="slide">
 					<div class="large-5 columns">
 						<img src="<?php echo S3IMGROOT; ?>img/450x-poopbuddychristmas.png" alt="What You Need. What Your Dog Loves"  />
 					</div>
@@ -25,8 +25,8 @@
 							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
 						</p>
 					</div>
-				</div>			
-				<div class="slide hide">
+				</li>			
+				<li class="slide hide">
 					<div class="large-5 columns">
 						<img src="<?php echo S3IMGROOT; ?>img/PoopBuddy.png" alt="Make pickup fun and easy" />
 					</div>
@@ -38,8 +38,8 @@
 							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
 						</p>
 					</div>
-				</div>
-				<div class="slide hide">
+				</li>
+				<li class="slide hide">
 					<div class="large-5 columns">
 						<img src="<?php echo S3IMGROOT; ?>img/450x-element-of-surprise.png" alt="Share the element of surprise" />
 					</div>
@@ -52,8 +52,8 @@
 						</p>
 
 					</div>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 		<div class="row">
 			<div class="large-12 columns">
