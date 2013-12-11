@@ -14,13 +14,6 @@
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
 
     // Begin Custom Javascript.
-    $('.slide').show();
-    $('.slider1').bxSlider({
-      minSlides: 1,
-      maxSlides: 1,
-      slideMargin: 0
-    });
-
     $('#subform').submit(function(e) {
       // reset the form
       $('.success').removeClass('success');
@@ -154,6 +147,14 @@
 
 
     $('.faq-answer').hide(); // hide FAQs
+
+    // homepage slider
+    $('.slide').show();
+    $('.slider1').bxSlider({
+      minSlides: 1,
+      maxSlides: 1,
+      slideMargin: 0
+    });    
 
   });
 
