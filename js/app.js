@@ -152,7 +152,11 @@
 
     // homepage slider
     $('.slide').show();
-    $('.slider1').bxSlider();    
+    $('.slider1').bxSlider({
+      minSlides: 1,
+      maxSlides: 1,
+      slideMargin: 0
+    });    
 
   });
 
