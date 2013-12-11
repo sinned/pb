@@ -22,6 +22,7 @@
 						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
+							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
 						</p>
 					</div>
 				</div>			
@@ -34,6 +35,7 @@
 						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Starts at $8/month + free shipping</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
+							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
 						</p>
 					</div>
 				</div>
@@ -46,6 +48,7 @@
 						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">The gift you know they&rsquo;ll use</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
+							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>							
 						</p>
 
 					</div>
