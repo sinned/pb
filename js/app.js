@@ -1,3 +1,22 @@
+
+(function() {
+  if (!window.console) {
+    window.console = {};
+  }
+  // union of Chrome, FF, IE, and Safari console methods
+  var m = [
+    "log", "info", "warn", "error", "debug", "trace", "dir", "group",
+    "groupCollapsed", "groupEnd", "time", "timeEnd", "profile", "profileEnd",
+    "dirxml", "assert", "count", "markTimeline", "timeStamp", "clear"
+  ];
+  // define undefined methods as noops to prevent errors
+  for (var i = 0; i < m.length; i++) {
+    if (!window.console[m[i]]) {
+      window.console[m[i]] = function() {};
+    }    
+  } 
+})();
+
   $(document).ready(function() {
     /*
     $.fn.foundationAlerts           ? $doc.foundationAlerts() : null;
@@ -93,7 +112,7 @@
       // defaults for recurring/non-recurring
       if ($('#thisisforme').hasClass('success')) {
         $("#subform input[name='sub_frequency']").attr('value', '1m');     
-        $("#subform input[name='sub_startdate']").attr('value',11);
+        $("#subform input[name='sub_startdate']").attr('value','');
       } else {
         $("#subform input[name='sub_frequency']").attr('value', '');
         $("#subform input[name='sub_startdate']").attr('value', '');               
@@ -119,7 +138,7 @@
           // figure out if subscription recurring
           if ($('#thisisforme').hasClass('success')) {
             $("#subform input[name='sub_frequency']").attr('value', $(this).attr('data-freq'));     
-            $("#subform input[name='sub_startdate']").attr('value',10);
+            $("#subform input[name='sub_startdate']").attr('value','');
             $("#subform input[name='code']").attr('value', $("#subform input[name='code']").attr('value')+'-RECUR');       
           } else {
             $("#subform input[name='sub_frequency']").attr('value', '');

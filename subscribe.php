@@ -111,7 +111,7 @@
 					<input type="hidden" name="size" value="" />
 					<input type="hidden" name="price" value="10" />
 					<input type="hidden" name="sub_frequency" value="1m" />
-					<input type="hidden" name="sub_startdate" value="10" />
+					<input type="hidden" name="sub_startdate" value="" />
 					<input type="hidden" name="sub_enddate" />
 					<input type="hidden" name="shipto" />
 					<input type="hidden" name="Gift_Email" value="" />
