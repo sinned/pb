@@ -18,7 +18,7 @@
 						<img src="<?php echo S3IMGROOT; ?>img/450x-poopbuddychristmas.png" alt="What You Need. What Your Dog Loves"  />
 					</div>
 					<div class="large-7 columns">
-						<h2 style="padding:0;margin:80px 0 0 0; ">What You Need. What Your Dog Loves</h2>
+						<h2 style="padding:0;margin:80px 0 0 0; ">What you need. What your dog loves.</h2>
 						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
