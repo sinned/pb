@@ -40,18 +40,17 @@
 
     <div class="row">
     	<div class="large-7 columns">
-    		<h1>Sign Up For 50% Off!</h1>
-    		<p>Join our pack to get your welcome discount, special offer alerts, contests and more.
+    		<h1>Join Our Pack</h1>
+    		<p>Sign up here for special offers, contests and more.
 			<!-- Begin MailChimp Signup Form -->
 
 			<div id="mc_embed_signup">
 			<form action="http://poopbuddy.us7.list-manage2.com/subscribe/post?u=7cccd32f632de3c4496407d9b&amp;id=4caf43e792" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-				<div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
+				<div class="clear"><input type="submit" value="Join!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 			</form>
 			</div>
 			<!--End mc_embed_signup-->
-			<p><small>*Offer valid for first-time registrants only</small></p>
 		</div>
 		<div class="large-5 columns">
 		</div>
