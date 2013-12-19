@@ -56,15 +56,6 @@
       $('#squeezeModal').foundation('reveal', 'open');
     }    
 
-    $('.toggle_gift').click(function(e) {    
-      if ($(this).is(':checked')) {
-        $(this).siblings().removeClass('hide');
-      } else {
-        $(this).siblings('.whofor').addClass('hide')
-        $(this).siblings('.whofor').children('input').val('');
-      }
-    });
-
     // when a .clearprice is clicked, clear our product choice and reset price
     $('.clearprice').click(function(e) {
       e.preventDefault();
@@ -186,6 +177,11 @@
       maxSlides: 1,
       slideMargin: 0
     });    
+
+    // if the querystring is "?gift", click the "this is a gift"
+    if (document.location.search == '?gift') {
+      $('#thisisagift').click();
+    }    
 
   });
 
