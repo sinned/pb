@@ -43,9 +43,10 @@
       $('#addtocart').addClass('disabled');
       $("#addtocart").attr('disabled',true);
       $('.showifgift').hide();
+      $('#giftemailnotify_input').attr('checked',false);            
       $('#giftemail_input').val('');      
       $('#giftmessage_input').val('');
-      $("#subform input[name='shipto']" ).attr('value', '');
+      //$("#subform input[name='shipto']" ).attr('value', '');
       //$( "#subform input[name='Gift_Message']" ).attr('value', '');
       //$( "#subform input[name='Gift_Email']" ).attr('value', '');        
     });
@@ -93,6 +94,7 @@
         $('.showifgift').hide();
         $('#giftemail_input').val('');              
         $('#giftmessage_input').val('');
+        $( "#subform input[name='Gift_Email_Notify']" ).attr('value', '');                
         $( "#subform input[name='Gift_Email']" ).attr('value', '');        
         $( "#subform input[name='Gift_Message']" ).attr('value', '');
         $('#onetimegift-row').hide(); 
@@ -155,7 +157,6 @@
     });
 
     $('#whofor').change(function (){
-      //console.log('it is for: ', $(this).val());
       $( "#subform input[name='shipto']" ).attr('value', $(this).val());
     });
 
@@ -165,6 +166,14 @@
 
     $('#giftemail_input').change(function (){
       $( "#subform input[name='Gift_Email']" ).attr('value', $(this).val());
+    });    
+
+    $('#giftemailnotify_input').click(function (){
+      if ($(this).prop('checked')) {
+        $( "#subform input[name='Gift_Email_Notify']" ).attr('value', 'Yes');        
+      } else {
+        $( "#subform input[name='Gift_Email_Notify']" ).attr('value', 'No');                
+      }
     });    
 
 

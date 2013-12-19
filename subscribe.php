@@ -79,6 +79,7 @@
 				<h3>5</h3>
 			</div>
 			<div class="large-11 columns">
+				<input id="giftemailnotify_input" type="checkbox" name="GiftEmailNotify" /> Let your friend know that the gift is on the way.
 				<input id="giftemail_input" name="GiftEmail" type="text" placeholder="Giftee's Email Address?" />
 			</div>
 		</div>		
@@ -110,10 +111,11 @@
 					<input type="hidden" name="image" value="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" />					
 					<input type="hidden" name="size" value="" />
 					<input type="hidden" name="price" value="10" />
+					<input type="hidden" name="shipto" />					
 					<input type="hidden" name="sub_frequency" value="1m" />
 					<input type="hidden" name="sub_startdate" value="" />
 					<input type="hidden" name="sub_enddate" />
-					<input type="hidden" name="shipto" />
+					<input type="hidden" name="Gift_Email_Notify" value="" />					
 					<input type="hidden" name="Gift_Email" value="" />
 					<input type="hidden" name="Gift_Message" value="" />
 					<input id="addtocart" style="width:100%" class="round primary button disabled" disabled type="submit" value="Add to Cart" />
