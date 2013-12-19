@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="large-12 column">
 		<div class="contain-to-grid text-center fixed">
-			<img style="margin-bottom:10px;" class="" src="<?php echo S3IMGROOT;?>img/awning-holiday2.jpg" alt="We donate 10% to dog rescues" />
+			<img style="margin-bottom:10px;" class="" src="<?php echo S3IMGROOT;?>img/lastmin_banner.jpg" alt="Last minute? We'll let your friend know that your gift is on the way!" />
 			<nav class="top-bar">
 			  <ul class="title-area">
 			    <!-- Title Area -->
