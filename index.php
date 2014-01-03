@@ -4,8 +4,9 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width" />	
 	<title>Get Poop Bags Delivered Monthly | Fun and Easy | PoopBuddy</title>
+	<meta name="description" content="Get eco-chic poop bags delivered with natural treats and surprises. Try our monthly service at $8/mo. and shop your favorites in our store.">	
 	<?php include "includes/scripts.php"; ?>
 </head>
 <body>

@@ -5,6 +5,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
+	<meta name="description" content="Choose a plan and dog size, then get your monthly package">		
 	<title>Subscribe to PoopBuddy</title>
 	<?php include "includes/scripts.php"; ?>
 </head>
