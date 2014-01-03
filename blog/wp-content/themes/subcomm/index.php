@@ -17,6 +17,11 @@
 				</div>
 			</div>
 			<?php endwhile; ?>
+			<div class="row">
+				<div class="large-12 columns">
+					<p><?php posts_nav_link(); ?></p>
+				</div>
+			</div>
 		</div>
 		<div class="large-3 columns">
 			<?php include "sidebar.php"; ?>
