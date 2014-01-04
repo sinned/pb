@@ -35,34 +35,56 @@
     */
 
     // Begin Custom Javascript.
-    $('#subform').submit(function(e) {
-      // reset the form
-      $('.success').removeClass('success');
-      $('#whofor').val('');
-      $('#pricetext').html('');
-      $('#addtocart').addClass('disabled');
-      $("#addtocart").attr('disabled',true);
-      $('.showifgift').hide();
-      $('#giftemailnotify_input').attr('checked',false);            
-      $('#giftemail_input').val('');      
-      $('#giftmessage_input').val('');
-      //$("#subform input[name='shipto']" ).attr('value', '');
-      //$( "#subform input[name='Gift_Message']" ).attr('value', '');
-      //$( "#subform input[name='Gift_Email']" ).attr('value', '');        
-    });
-    
+
+    // squeeze modal 
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
       $.cookie('show_squeeze', 'welcome', { expires: 365 });
       $('#squeezeModal').foundation('reveal', 'open');
     }    
 
+    // reset the page (but not the form itself) on submit
+    $('#subform').submit(function(e) {
+      $('.success').removeClass('success');
+      $('#whofor').val('');
+      $('#pricetext').html('');
+      $('#addtocart').addClass('disabled');
+      $('.showifgift').hide();
+      $('#giftemailnotify_input').attr('checked',false);            
+      $('#giftemail_input').val('');      
+      $('#giftmessage_input').val('');    
+    });
+
+    $('#addtocart').click(function(e) {
+      if ($(this).hasClass('disabled')) {
+        $('#messageModal p').html('Please fill out all fields before adding to the cart!');
+        $('#messageModal').foundation('reveal', 'open');
+      } else {
+        $('#subform').submit();
+      }
+    });
+
+    // checks to see if the add to cart button should be enabled or not.
+    function checkToEnableAddToCart () {
+      console.log('checkin');
+      if ($('.product-choice a').hasClass('success')) {
+        if ($('a#thisisagift').hasClass('success')) {
+          if ($('#giftemail_input').val() != '') {
+            console.log('gift enabling');
+            $("#addtocart").removeClass('disabled');
+          }
+        } else {
+          $("#addtocart").removeClass('disabled');
+          console.log('enabling');
+        } 
+      }
+    }
+    
     // when a .clearprice is clicked, clear our product choice and reset price
     $('.clearprice').click(function(e) {
       e.preventDefault();
       $('.product-choice a').removeClass('success');
       $('#pricetext').html('');
       $("#addtocart").addClass('disabled');
-      $("#addtocart").attr('disabled',true);      
     })
 
     $('.subfigurator li a').click(function(e) {
@@ -120,8 +142,6 @@
 
       $('.product-choice a').each(function (index, value) {
         if ($(this).hasClass('success')) {
-          $("#addtocart").removeClass('disabled');
-          $("#addtocart").attr('disabled',false);
           //console.log('Price', $(this).attr('data-price'));          
           //console.log('Freq', $(this).attr('data-freq'));   
           $("#subform input[name='name']").attr('value', $(this).attr('data-name'))       
@@ -142,9 +162,8 @@
           $('#pricetext').html($(this).attr('data-pricetext'));  
         }
       });
-
-
-
+        
+      checkToEnableAddToCart();
     });
 
     $('#whofor').change(function (){
@@ -157,6 +176,7 @@
 
     $('#giftemail_input').change(function (){
       $( "#subform input[name='Gift_Email']" ).attr('value', $(this).val());
+      checkToEnableAddToCart();
     });    
 
     $('#giftemailnotify_input').click(function (){

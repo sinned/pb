@@ -56,6 +56,10 @@
 		</div>
 	</div>
 </div>
+<div id="messageModal" class="reveal-modal">   
+	<a class="close-reveal-modal">&#215;</a>
+	<p></p>
+</div>
 
 <script>
 document.write('<script src=' +

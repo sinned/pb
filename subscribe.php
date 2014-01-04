@@ -119,8 +119,9 @@
 					<input type="hidden" name="Gift_Email_Notify" value="" />					
 					<input type="hidden" name="Gift_Email" value="" />
 					<input type="hidden" name="Gift_Message" value="" />
-					<input id="addtocart" style="width:100%" class="round primary button disabled" disabled type="submit" value="Add to Cart" />
 				</form>				
+					<button id="addtocart" style="width:100%" class="round primary button disabled" />Add to Cart</button>
+				
 			</div>
 		</div>
 		
