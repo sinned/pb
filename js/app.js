@@ -65,16 +65,13 @@
 
     // checks to see if the add to cart button should be enabled or not.
     function checkToEnableAddToCart () {
-      console.log('checkin');
       if ($('.product-choice a').hasClass('success')) {
         if ($('a#thisisagift').hasClass('success')) {
           if ($('#giftemail_input').val() != '') {
-            console.log('gift enabling');
             $("#addtocart").removeClass('disabled');
           }
         } else {
           $("#addtocart").removeClass('disabled');
-          console.log('enabling');
         } 
       }
     }
