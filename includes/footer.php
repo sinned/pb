@@ -10,6 +10,7 @@
 				<li><a href="<?php echo WEBROOT;?>about/">About</a></li>
 				<li><a href="<?php echo WEBROOT;?>faq/">FAQ</a></li>
 				<li><a href="<?php echo WEBROOT;?>press/">Press</a></li>
+				<li><a href="http://www.poopbuddy.com/blog/brand-partners/">Partners</a></li>
 			</ul>
 			<ul class="inline-list right socialmedia">
 				<li><a href="http://www.facebook.com/poopbuddy"><img src="<?php echo WEBROOT; ?>img/facebook-green.png" /></a></li>
