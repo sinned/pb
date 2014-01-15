@@ -16,7 +16,7 @@
 			<ul class="slider1">
 				<li class="slide">
 					<div class="large-5 columns">
-						<img src="<?php echo S3IMGROOT; ?>img/450x-poopbuddychristmas.png" alt="What You Need. What Your Dog Loves"  />
+						<img src="<?php echo S3IMGROOT; ?>img/450xPoopBuddy-Valentines2.png" alt="What You Need. What Your Dog Loves"  />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">What you need. What your dog loves.</h2>
@@ -42,7 +42,7 @@
 				</li>
 				<li class="slide hide">
 					<div class="large-5 columns">
-						<img src="<?php echo S3IMGROOT; ?>img/450x-element-of-surprise.png" alt="Share the element of surprise" />
+						<img src="<?php echo S3IMGROOT; ?>img/450xPoopBuddy-ShihTzu.png" alt="Share the element of surprise" />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">Share the element of surprise</h2>
