@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="large-12 column">
 		<div class="contain-to-grid text-center fixed">
-			<img style="margin-bottom:10px;" class="" src="<?php echo S3IMGROOT;?>img/lastmin_banner.png" alt="Last minute? We'll let your friend know that your gift is on the way!" />
+			<img style="margin-bottom:10px;" class="" src="<?php echo S3IMGROOT;?>img/poopbuddy-valentine-banner.png" alt="Last minute? We'll let your friend know that your gift is on the way!" />
 			<nav class="top-bar">
 			  <ul class="title-area">
 			    <!-- Title Area -->
