@@ -13,10 +13,10 @@
 	<?php include "includes/header.php"; ?>
 	<section id="mainContent">
 		<div class="row">
-			<ul class="slider1-nope">
+			<ul class="slider1">
 				<li class="slide">
 					<div class="large-5 columns">
-						<img src="<?php echo S3IMGROOT; ?>img/Valentines-Day-PoopBuddy.png" alt="What You Need. What Your Dog Loves"  />
+						<img src="<?php echo S3IMGROOT; ?>img/450xPoopBuddy-Valentines2.png" alt="What You Need. What Your Dog Loves"  />
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">What you need. What your dog loves.</h2>
@@ -26,8 +26,7 @@
 							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
 						</p>
 					</div>
-				</li>	
-			<!--		
+				</li>			
 				<li class="slide hide">
 					<div class="large-5 columns">
 						<img src="<?php echo S3IMGROOT; ?>img/PoopBuddy.png" alt="Make pickup fun and easy" />
@@ -55,7 +54,6 @@
 
 					</div>
 				</li>
-			-->
 			</ul>
 		</div>
 		<div class="row">

@@ -14,9 +14,12 @@
 	<section id="mainContent">
 		<div class="row">
 			<div class="large-12 columns text-center">
+				<img style="width:600px;" src="<?php echo S3IMGROOT; ?>img/Valentines-Day-PoopBuddy.png" />
+				<!--
 				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-green-theme.png" "PoopBuddy" />
 				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-July-theme.png" "PoopBuddy" />
 				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme.png" "PoopBuddy" />
+				-->
 			</div>
 		</div>
 		<div class="row subfigurator">
