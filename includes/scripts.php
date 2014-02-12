@@ -13,7 +13,7 @@ switch ($_SERVER['SERVER_NAME']) {
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/custom.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/normalize.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/app.css" />
-<link rel="stylesheet" href="<?php echo S3IMGROOT; ?>stylesheets/jquery.bxslider.css" />
+<link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/jquery.bxslider.css" />
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php echo S3IMGROOT; ?>js/vendor/custom.modernizr.js"></script>
