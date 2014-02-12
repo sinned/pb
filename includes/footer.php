@@ -13,10 +13,10 @@
 				<li><a href="http://www.poopbuddy.com/blog/brand-partners/">Partners</a></li>
 			</ul>
 			<ul class="inline-list right socialmedia">
-				<li><a href="http://www.facebook.com/poopbuddy"><img src="<?php echo WEBROOT; ?>img/facebook-green.png" /></a></li>
-				<li><a href="http://www.twitter.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/twitter-green.png" /></a></li>
-				<li><a href="http://www.pinterest.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/pinterest-green.png" /></a></li>
-				<li><a href="http://www.instagram.com/getpoopbuddy"><img src="<?php echo WEBROOT; ?>img/instagram-green.png" /></a></li>				
+				<li><a href="http://www.facebook.com/poopbuddy"><img src="<?php echo S3IMGROOT; ?>img/facebook-green.png" /></a></li>
+				<li><a href="http://www.twitter.com/getpoopbuddy"><img src="<?php echo S3IMGROOT; ?>img/twitter-green.png" /></a></li>
+				<li><a href="http://www.pinterest.com/getpoopbuddy"><img src="<?php echo S3IMGROOT; ?>img/pinterest-green.png" /></a></li>
+				<li><a href="http://www.instagram.com/getpoopbuddy"><img src="<?php echo S3IMGROOT; ?>img/instagram-green.png" /></a></li>				
 			</ul>
 			<br style="clear:both;"/>
 
