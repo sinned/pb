@@ -14,16 +14,19 @@ switch ($_SERVER['SERVER_NAME']) {
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/normalize.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/app.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/jquery.bxslider.css" />
+<script src="<?php echo WEBROOT; ?>js/vendor/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo WEBROOT; ?>js/foundation.min.js"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="<?php echo S3IMGROOT; ?>js/vendor/custom.modernizr.js"></script>
+<!-- script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
+
+<script src="<?php echo WEBROOT; ?>js/vendor/custom.modernizr.js"></script>
 <!-- start Dropifi --> <script type='text/javascript' src='https://s3.amazonaws.com/dropifi/js/widget/dropifi_widget.min.js'></script><script type='text/javascript'>document.renderDropifiWidget('f5b6a5f3cdb5a8370a48ef8ffa70a5ee-1384393592402');</script> <!-- end Dropifi -->
 
 <!-- Foundation 3 for IE 8 and earlier -->
 <!--[if lt IE 9]>
-  <link rel="stylesheet" href="<?php echo S3IMGROOT; ?>css/foundation3/normalize.css">
-  <link rel="stylesheet" href="<?php echo S3IMGROOT; ?>css/foundation3/foundation.css">
-  <link rel="stylesheet" href="<?php echo S3IMGROOT; ?>css/foundation3/app.css">
+  <link rel="stylesheet" href="<?php echo WEBROOT; ?>css/foundation3/normalize.css">
+  <link rel="stylesheet" href="<?php echo WEBROOT; ?>css/foundation3/foundation.css">
+  <link rel="stylesheet" href="<?php echo WEBROOT; ?>css/foundation3/app.css">
 <![endif]-->
 
 <?php 
@@ -59,8 +62,8 @@ switch ($_SERVER['SERVER_NAME']) {
  
 </script>
 
-<script src="<?php echo S3IMGROOT; ?>js/vendor/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
-<script src="<?php echo S3IMGROOT; ?>js/vendor/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo WEBROOT; ?>js/vendor/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo WEBROOT; ?>js/vendor/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- BEGIN FOXYCART FILES -->
 <link rel="stylesheet" href="//cdn.foxycart.com/static/scripts/colorbox/1.3.23/style1_fc/colorbox.css?ver=1" type="text/css" media="screen" charset="utf-8" />
