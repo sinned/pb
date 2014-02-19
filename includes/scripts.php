@@ -14,10 +14,10 @@ switch ($_SERVER['SERVER_NAME']) {
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/normalize.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/app.css" />
 <link rel="stylesheet" href="<?php echo WEBROOT; ?>stylesheets/jquery.bxslider.css" />
-<script src="<?php echo WEBROOT; ?>js/vendor/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="<?php echo WEBROOT; ?>js/foundation.min.js"></script>
 
-<!-- script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
 
 <script src="<?php echo WEBROOT; ?>js/vendor/custom.modernizr.js"></script>
 <!-- start Dropifi --> <script type='text/javascript' src='https://s3.amazonaws.com/dropifi/js/widget/dropifi_widget.min.js'></script><script type='text/javascript'>document.renderDropifiWidget('f5b6a5f3cdb5a8370a48ef8ffa70a5ee-1384393592402');</script> <!-- end Dropifi -->
