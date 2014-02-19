@@ -9,4 +9,5 @@ RewriteRule about/ blog/about/ [L]
 RewriteRule what-you-get/ blog/what-you-get/ [L]
 RewriteRule press/ blog/press/ [L]
 RewriteRule faq/ blog/faq/ [L]
+RewriteRule contact/ blog/contact/ [L]
 </IfModule>

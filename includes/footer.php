@@ -11,6 +11,8 @@
 				<li><a href="<?php echo WEBROOT;?>faq/">FAQ</a></li>
 				<li><a href="<?php echo WEBROOT;?>press/">Press</a></li>
 				<li><a href="http://www.poopbuddy.com/blog/brand-partners/">Partners</a></li>
+				<li><a href="<?php echo WEBROOT;?>contact/">Contact Us</a></li>
+
 			</ul>
 			<ul class="inline-list right socialmedia">
 				<li><a href="http://www.facebook.com/poopbuddy"><img src="<?php echo S3IMGROOT; ?>img/facebook-green.png" /></a></li>
