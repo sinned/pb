@@ -37,12 +37,10 @@
     // Begin Custom Javascript.
 
     // squeeze modal 
-    /*
     if ($.cookie('show_squeeze') != 'welcome' || document.location.search == '?squeeze') {
       $.cookie('show_squeeze', 'welcome', { expires: 365 });
       $('#squeezeModal').foundation('reveal', 'open');
-    }    
-    */
+    }
 
     // reset the page (but not the form itself) on submit
     $('#subform').submit(function(e) {
@@ -191,21 +189,16 @@
 
     // homepage slider
     $('.slide').show();
-    /*
     $('.slider1').bxSlider({
       minSlides: 1,
       maxSlides: 1,
       slideMargin: 0
     });    
-    */
 
     // if the querystring is "?gift", click the "this is a gift"
     if (document.location.search == '?gift') {
       $('#thisisagift').click();
     }    
-
-    // do we need this?
-    //$(document).foundation();
 
   });
 
