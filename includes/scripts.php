@@ -46,9 +46,8 @@ switch ($_SERVER['SERVER_NAME']) {
  
 </script>
 
-
-
 <!-- BEGIN FOXYCART FILES -->
 <link rel="stylesheet" href="//cdn.foxycart.com/static/scripts/colorbox/1.3.23/style1_fc/colorbox.css?ver=1" type="text/css" media="screen" charset="utf-8" />
 <script src="//cdn.foxycart.com/poopbuddy/foxycart.colorbox.js?ver=2" type="text/javascript" charset="utf-8"></script>
 <!-- END FOXYCART FILES -->
+
