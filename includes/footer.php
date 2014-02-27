@@ -89,7 +89,7 @@ return true;
 });
 </script>
 
-<script src="<?php echo WEBROOT; ?>js/app.js"></script>
+<script src="<?php echo WEBROOT; ?>js/app.js?cb=27feb14"></script>
 
 <!-- Foundation 3 for IE 8 and earlier -->
 <!--[if lt IE 9]>
