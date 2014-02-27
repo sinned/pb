@@ -99,8 +99,9 @@
 
       // checks for step 4 show logic
       if ($('#thisisforme').hasClass('success')) {
-        // show step 5 for subscription, hide the other rows
-        $('#subscription-row').show('fast');
+        //$('#subscription-row').show('fast');
+        $('#subscription-row a.default').addClass('success');
+
         $('.showifgift').hide();
         $('#giftemail_input').val('');              
         $('#giftmessage_input').val('');
@@ -109,7 +110,10 @@
         $( "#subform input[name='Gift_Message']" ).attr('value', '');
         $('#onetimegift-row').hide(); 
       } else if ($('#thisisagift').hasClass('success')) {
+
         $('#subscription-row').hide();
+        $('#giftsubscription-row a.default').addClass('success');
+
         $('.showifgift').show('fast');
         $('#onetimegift-row').hide();  
       } else {

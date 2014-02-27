@@ -14,12 +14,9 @@
 	<section id="mainContent">
 		<div class="row">
 			<div class="large-12 columns text-center">
-				<img style="width:600px;" src="<?php echo S3IMGROOT; ?>img/Valentines-Day-PoopBuddy.png" />
-				<!--
 				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-green-theme.png" "PoopBuddy" />
 				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-July-theme.png" "PoopBuddy" />
 				<img style="width:300px;margin-bottom:10px;" src="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme.png" "PoopBuddy" />
-				-->
 			</div>
 		</div>
 		<div class="row subfigurator">
@@ -60,18 +57,19 @@
 			</div>
 			<div class="large-11 columns">  		
    				<ul id="subscription-choice" class="product-choice button-group even-3">
-					<li><a href="#" class="secondary button" data-name="PoopBuddy Subscription, Monthly" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$10 / month + Free Shipping" data-freq="1m" data-price="10" data-code="POOPBUDDY-SUBSCRIPTION-1MO">Monthly</a></li>
+					<li><a href="#" class="success default secondary button" data-name="PoopBuddy Subscription, Monthly" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$12 / month + Free Shipping" data-freq="1m" data-price="12" data-code="POOPBUDDY-SUBSCRIPTION-1MO">Monthly</a></li>
 					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off!"><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 3 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$9 / month + Free Shipping <br /><small>(Save 10% with 3 months of goodies)</small>" data-freq="3m" data-price="27" data-code="POOPBUDDY-SUBSCRIPTION-3MO">3 months of goodies</a></span></li>
 					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off!"><a href="#" class="secondary button" data-name="PoopBuddy Subscription, 6 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$8 / month + Free Shipping <br /><small>(Save 20% with 6 months of goodies)</small>" data-freq="6m" data-price="48" data-code="POOPBUDDY-SUBSCRIPTION-6MO">6 months of goodies</a></span></li>
   				</ul>		 
 			</div>		
 		</div>
-		<div id="giftsubscription-row" class="showifgift row subfigurator hide">
+		<div id="giftsubscription-row" class="row subfigurator hide">
 			<div class="large-1 columns">
 				<h3>4</h3>
 			</div>
 			<div class="large-11 columns">  		
-   				<ul id="giftsubscription-choice" class="product-choice button-group even-2">
+   				<ul id="giftsubscription-choice" class="product-choice button-group even-3">
+					<li><a href="#" class="success default secondary button" data-name="PoopBuddy Gift Subscription, 1 Month" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$12 + Free Shipping" data-freq="1m" data-price="12" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-1MO">1 month of goodies</a></li>   					
 					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="10% off per month!"><a href="#" class="secondary button" data-name="PoopBuddy Gift Subscription, 3 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$27 + Free Shipping" data-freq="" data-price="27" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-3MO">3 months of goodies</a></span></li>
 					<li><span data-tooltip data-options="disable-for-touch:true" class="has-tip" title="20% off per month!"><a href="#" class="secondary button" data-name="PoopBuddy Gift Subscription, 6 Months" data-img="<?php echo S3IMGROOT; ?>img/PoopBuddy-November-theme-100.jpg" data-pricetext="$48 + Free Shipping" data-freq="" data-price="48" data-code="POOPBUDDY-GIFT-SUBSCRIPTION-6MO">6 months of goodies</a></span></li>
   				</ul>		 

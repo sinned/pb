@@ -33,7 +33,7 @@
 					</div>
 					<div class="large-7 columns">
 						<h2 style="padding:0;margin:80px 0 0 0; ">Save time and money</h2>
-						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Starts at $8/month + free shipping</h3>
+						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">$12/month + free shipping</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
