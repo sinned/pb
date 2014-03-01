@@ -16,11 +16,11 @@
 			<ul class="slider1">
 				<li class="slide">
 					<div class="large-5 columns">
-						<img src="<?php echo S3IMGROOT; ?>img/450xPoopBuddy-Valentines2.png" alt="What You Need. What Your Dog Loves"  />
+						<img src="http://i.poopbuddy.com.s3.amazonaws.com/blog/wp-content/uploads/2014/02/450x450PoopBuddy-March.png" alt="What You Need. What Your Dog Loves"  />
 					</div>
 					<div class="large-7 columns">
-						<h2 style="padding:0;margin:80px 0 0 0; ">What you need. What your dog loves.</h2>
-						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">Poop bags + goodies delivered monthly</h3>
+						<h2 style="padding:0;margin:80px 0 0 0; ">Monthly bags and surprises</h2>
+						<h3 style="padding:0;margin:7px 0 20px 0;" class="subheader">What you need. What your dog loves.</h3>
 						<p>
 							<a href="<?php echo WEBROOT; ?>buy/" class="large button round">Get Started</a>
 							<a href="<?php echo WEBROOT; ?>buy/?gift" class="large button round">Give a Gift</a>
